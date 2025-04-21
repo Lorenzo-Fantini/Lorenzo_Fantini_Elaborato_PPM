@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Corriere della Sera: News e Ultime notizie in tempo reale da Italia e Mondo</title>
-  <meta name="description" content="Corriere della Sera è il primo quotidiano online aggiornato con le ultime notizie di Cronaca, Politica, Economia, Sport, Esteri, Spettacoli, Cultura e Tecnologia.">
+  <meta name="description" content="Corriere della Sera è il primo quotidiano online aggiornato con le ultime notizie
+    di Cronaca, Politica, Economia, Sport, Esteri, Spettacoli, Cultura e Tecnologia.">
 
   <meta name="author" content="Lorenzo Fantini">
 
@@ -17,7 +18,67 @@
 
 <body>
 
+  <header>
+<!-- due sezioni: la prima la fai con flexbox e ci metti tutti i bottoni per le varie cose, gestisci i bottoni
+in modo che quello più a destra deve occupare tutta la parte rimanente di pagina a destra e avere il contenuto allineato
+a sinistra, il contrario per quello a sinistra, il bottone centrale deve avere un po' di spazio fra i bottoni a sinistra
+e quelli a destra ma questo spazio deve diminuire al rimpicciolirsi della pagina-->
 
+    <div id="upper-header">
+      <div class="upper-header-container">
+        <div class="upper-header-element-left-side">
+          <menu class="upper-header-element sezioni">sezioni</menu>
+          <menu class="upper-header-element edizioni-locali">edizioni locali</menu>
+          <menu class="upper-header-element servizi">servizi</menu>
+        </div>
+        <div class="upper-header-element meteo">meteo</div>
+        <div class="upper-header-element-right-side">
+          <button class="upper-header-element">abbonati</button>
+          <button class="upper-header-element">accedi</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="lower-header">
+      <div id="lower-header-wrapper">
+        <h1 id="page-title">
+          <i>CORRIERE DELLA SERA</i>
+        </h1>
+        <div id="additional-info">
+          <div id="date-time-update">
+            <time id="date-time" datetime="2025-4-21">
+              Lunedì 21 aprile 2025
+            </time>
+            <span>
+            - Aggiornato alle 16:54
+            </span>
+          </div>
+          <div id="socials-buttons">
+            <a>
+              <img src="img/Facebook_Icon_Elaborato.png">
+            </a>
+            <a>
+              <img src="img/Instagram_Icon_Elaborato.png">
+            </a>
+            <a>
+              <img src="img/Twitter_Icon_Elaborato.png">
+            </a>
+            <a>
+              <img src="img/Tiktok_Icon_Elaborato.png">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+  </main>
+
+  <footer>
+
+  </footer>
 
 </body>
 
