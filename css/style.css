@@ -83,3 +83,43 @@
   flex-basis: 50%;
   max-height: 20px;
 }
+
+main
+{
+  display: flex;
+  justify-content: center;
+}
+
+#main-container
+{
+  display: flex;
+  flex-basis: 900px;
+  flex-direction: column;
+}
+
+#temi-caldi
+{
+  display: flex;
+  flex-basis: 100%;
+}
+
+#temi-caldi-caption
+{
+  display: flex;
+  flex-basis: 20%;
+}
+
+#temi-caldi-list-container
+{
+  display: flex;
+  flex-basis: 80%;
+}
+
+#temi-caldi-list
+{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-basis: 100%;
+  justify-content: space-evenly;
+}
