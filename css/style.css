@@ -64,7 +64,13 @@
   justify-content: center;
 }
 
-#additional-info
+#page-title
+{
+  font-size: 2em;
+  font-weight: bolder;
+}
+
+#title-additional-info
 {
   display: flex;
   flex-direction: row;
@@ -122,4 +128,143 @@ main
   flex-direction: row;
   flex-basis: 100%;
   justify-content: space-evenly;
+}
+
+#corriere-tv-boxes
+{
+  display: flex;
+  flex-direction: column;
+}
+
+#corriere-tv-boxes-container
+{
+  display: flex;
+  flex-direction: row;
+}
+
+.corriere-tv-box
+{
+  display: flex;
+  flex-direction: row;
+  max-width: 300px;
+}
+
+.corriere-tv-box-picture
+{
+  margin: 10px 10px 10px 10px;
+}
+
+.corriere-tv-box-text-container
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.corriere-tv-box-title
+{
+  font-size: 0.7em;
+  margin: 0 0 0 0;
+}
+
+.corriere-tv-box-attribution
+{
+  font-size: 0.6em;
+}
+
+#update-badge
+{
+  background-color: red;
+  color: white;
+}
+
+#main-article-title
+{
+  font-size: 1.5em;
+}
+
+#main-article-figure
+{
+  margin: 0 0 0 0;
+}
+
+#main-article-image
+{
+  object-fit: fill;
+}
+
+#main-article-additional-info
+{
+  font-size: 0.8em;
+}
+
+#main-article-additional-info-list
+{
+  padding: 0 0 0 1em;
+}
+
+#main-article-additional-info
+{
+  display: flex;
+  flex-direction: row;
+  margin-top: -100px;
+}
+
+#main-article-additional-info-left
+{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 70%;
+  background-color: white;
+}
+
+#main-article-additional-info-right
+{
+  display: flex;
+  flex-basis: 30%;
+  flex-direction: column;
+  align-items: end;
+  justify-content: end;
+}
+
+.main-article-additional-info-right-paragraph
+{
+  display: flex;
+  justify-content: end;
+  margin: 0 0 0 0;
+}
+
+#articles-container
+{
+  display: flex;
+  flex-direction: row;
+}
+
+#articles-container-left
+{
+  display: flex;
+  flex-basis: 70%;
+}
+
+#articles-container-right
+{
+  display: flex;
+  flex-basis: 30%;
+}
+
+#coupled-articles-container
+{
+  display: flex;
+  flex-direction: row;
+}
+
+.coupled-articles-article-container
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.coupled-articles-image-and-comment-container
+{
+  display: flex;
+  flex-direction: row;
 }
