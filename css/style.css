@@ -242,12 +242,14 @@ main
 #articles-container-left
 {
   display: flex;
+  flex-direction: column;
   flex-basis: 70%;
 }
 
 #articles-container-right
 {
   display: flex;
+  flex-direction: column;
   flex-basis: 30%;
 }
 
@@ -267,4 +269,27 @@ main
 {
   display: flex;
   flex-direction: row;
+}
+
+#corriere-tv-right-first-article
+{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+}
+
+#corriere-tv-right-first-article-top-bar
+{
+  background-color: darkslateblue;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#corriere-tv-right-second-article-top-bar
+{
+  background-color: darkslateblue;
+  display: flex;
+  justify-content: center;
 }
