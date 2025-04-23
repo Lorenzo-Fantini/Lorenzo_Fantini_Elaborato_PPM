@@ -197,7 +197,7 @@ main
   font-size: 0.8em;
 }
 
-#main-article-additional-info-list
+#secondary-article-additional-info-list
 {
   padding: 0 0 0 1em;
 }
@@ -292,4 +292,21 @@ main
   background-color: darkslateblue;
   display: flex;
   justify-content: center;
+}
+
+.generic-article-placeholder
+{
+  width: 100%;
+  height: 100%;
+}
+
+.generic-article-container
+{
+  display: flex;
+}
+
+.generic-article-info-container
+{
+  display: flex;
+  flex-direction: column;
 }
