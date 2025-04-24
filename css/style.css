@@ -346,4 +346,14 @@ main
   display: flex;
 }
 
-#
+.pfp
+{
+  max-width: 20%;
+  max-height: 20%;
+}
+
+.editoriali-commenti-comment
+{
+  display: flex;
+  flex-direction: row;
+}
