@@ -31,19 +31,6 @@
   justify-content: left;
 }
 
-/*
-.edizioni-locali
-{
-  min-width: 80px;
-}
-
-.servizi
-{
-  max-width: 100px;
-  flex-shrink: 2;
-}
-*/
-
 .meteo
 {
   display: flex;
@@ -233,27 +220,27 @@ main
   margin: 0 0 0 0;
 }
 
-#articles-container
+.articles-container
 {
   display: flex;
   flex-direction: row;
 }
 
-#articles-container-left
+.articles-container-left
 {
   display: flex;
   flex-direction: column;
   flex-basis: 70%;
 }
 
-#articles-container-right
+.articles-container-right
 {
   display: flex;
   flex-direction: column;
   flex-basis: 30%;
 }
 
-#coupled-articles-container
+.coupled-articles-container
 {
   display: flex;
   flex-direction: row;
@@ -356,4 +343,11 @@ main
 {
   display: flex;
   flex-direction: row;
+}
+
+.secondary-section-title-container
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
