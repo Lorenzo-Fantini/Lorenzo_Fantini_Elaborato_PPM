@@ -334,3 +334,9 @@ main
   max-width: 50%;
   max-height: 50%;
 }
+
+#three-articles-container
+{
+  display: flex;
+  flex-direction: row;
+}
