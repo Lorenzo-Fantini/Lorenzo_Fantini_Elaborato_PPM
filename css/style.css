@@ -386,3 +386,15 @@ main
   display: flex;
   flex-basis: 50%;
 }
+
+#i-blog-del-corriere
+{
+  display: flex;
+  flex-direction: column;
+}
+
+#i-blog-del-corriere-title
+{
+  display: flex;
+  justify-content: center;
+}
