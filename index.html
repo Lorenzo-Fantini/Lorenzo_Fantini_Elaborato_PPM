@@ -19,11 +19,6 @@
 <body>
 
   <header>
-<!-- due sezioni: la prima la fai con flexbox e ci metti tutti i bottoni per le varie cose, gestisci i bottoni
-in modo che quello più a destra deve occupare tutta la parte rimanente di pagina a destra e avere il contenuto allineato
-a sinistra, il contrario per quello a sinistra, il bottone centrale deve avere un po' di spazio fra i bottoni a sinistra
-e quelli a destra ma questo spazio deve diminuire al rimpicciolirsi della pagina-->
-
     <div id="upper-header">
       <div class="upper-header-container">
         <div class="upper-header-element-left-side">
@@ -72,1180 +67,1246 @@ e quelli a destra ma questo spazio deve diminuire al rimpicciolirsi della pagina
     </div>
   </header>
 
-  <main>
-    <div id="main-container">
-      <section id="temi-caldi">
-        <span id="temi-caldi-caption">Temi caldi di oggi: </span>
-        <nav id="temi-caldi-list-container">
-          <ul id="temi-caldi-list">
-            <li>Tema 1</li>
-            <li>Tema 2</li>
-            <li>Tema 3</li>
-            <li>Tema 4</li>
-            <li>Tema 5</li>
-            <li>Tema 6</li>
-            <li>Tema 7</li>
-            <li>Tema 8</li>
-          </ul>
-        </nav>
-      </section>
-      <section id="corriere-tv-boxes">
+  <div id="page-container">
+    <main>
+      <div id="main-container">
+        <section id="temi-caldi">
+          <span id="temi-caldi-caption">Temi caldi di oggi: </span>
+          <nav id="temi-caldi-list-container">
+            <ul id="temi-caldi-list">
+              <li>Tema 1</li>
+              <li>Tema 2</li>
+              <li>Tema 3</li>
+              <li>Tema 4</li>
+              <li>Tema 5</li>
+              <li>Tema 6</li>
+              <li>Tema 7</li>
+              <li>Tema 8</li>
+            </ul>
+          </nav>
+        </section>
+        <section id="corriere-tv-boxes">
         <span id="corriere-tv-writing">
           <i>CORRIERE</i>TV
         </span>
-        <div id="corriere-tv-boxes-container">
-          <article class="corriere-tv-box">
-            <figure class="corriere-tv-box-picture">
-              <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
-            </figure>
-            <div class="corriere-tv-box-text-container">
-              <h4 class="corriere-tv-box-title">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </h4>
-              <span class="corriere-tv-box-attribution"><i>di Lorem Ipsum</i></span>
-            </div>
-          </article>
+          <div id="corriere-tv-boxes-container">
+            <article class="corriere-tv-box">
+              <figure class="corriere-tv-box-picture">
+                <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
+              </figure>
+              <div class="corriere-tv-box-text-container">
+                <h4 class="corriere-tv-box-title">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </h4>
+                <span class="corriere-tv-box-attribution"><i>di Lorem Ipsum</i></span>
+              </div>
+            </article>
 
-          <article class="corriere-tv-box">
-            <figure class="corriere-tv-box-picture">
-              <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
-            </figure>
-            <div class="corriere-tv-box-text-container">
-              <h4 class="corriere-tv-box-title">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </h4>
-              <span class="corriere-tv-box-attribution"><i>di Lorem Ipsum</i></span>
-            </div>
-          </article>
+            <article class="corriere-tv-box">
+              <figure class="corriere-tv-box-picture">
+                <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
+              </figure>
+              <div class="corriere-tv-box-text-container">
+                <h4 class="corriere-tv-box-title">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </h4>
+                <span class="corriere-tv-box-attribution"><i>di Lorem Ipsum</i></span>
+              </div>
+            </article>
 
-          <article class="corriere-tv-box">
-            <figure class="corriere-tv-box-picture">
-              <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
-            </figure>
-            <div class="corriere-tv-box-text-container">
-              <h4 class="corriere-tv-box-title">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </h4>
-              <span class="corriere-tv-box-attribution"><i>di Lorem Ipsum</i></span>
-            </div>
-          </article>
+            <article class="corriere-tv-box">
+              <figure class="corriere-tv-box-picture">
+                <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
+              </figure>
+              <div class="corriere-tv-box-text-container">
+                <h4 class="corriere-tv-box-title">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </h4>
+                <span class="corriere-tv-box-attribution"><i>di Lorem Ipsum</i></span>
+              </div>
+            </article>
 
-          <article class="corriere-tv-box">
-            <figure class="corriere-tv-box-picture">
-              <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
-            </figure>
-            <div class="corriere-tv-box-text-container">
-              <h4 class="corriere-tv-box-title">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </h4>
-              <span class="corriere-tv-box-attribution"><i>di Lorem Ipsum</i></span>
-            </div>
-          </article>
-        </div>
-      </section>
-      <section id="main-articles">
-        <div id="main-article-container">
-          <span id="update-badge">In aggiornamento</span>
-          <article id="main-article">
-            <h1 id="main-article-title">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
-              Praesent venenatis velit lectus, vitae imperdiet nibh tempor vel. Sed rutrum mauris vel mi ullamcorper
-              dictum.
-            </h1>
-            <figure id="main-article-figure">
-              <img src="img/Cicero_Placeholder_Main_Article.png" alt="placeholder" id="main-article-image">
-            </figure>
-          </article>
-          <div id="main-article-additional-info">
-            <div id="main-article-additional-info-left">
+            <article class="corriere-tv-box">
+              <figure class="corriere-tv-box-picture">
+                <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
+              </figure>
+              <div class="corriere-tv-box-text-container">
+                <h4 class="corriere-tv-box-title">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </h4>
+                <span class="corriere-tv-box-attribution"><i>di Lorem Ipsum</i></span>
+              </div>
+            </article>
+          </div>
+        </section>
+        <section id="main-articles">
+          <div id="main-article-container">
+            <span id="update-badge">In aggiornamento</span>
+            <article id="main-article">
+              <h1 id="main-article-title">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
+                Praesent venenatis velit lectus, vitae imperdiet nibh tempor vel. Sed rutrum mauris vel mi ullamcorper
+                dictum.
+              </h1>
+              <figure id="main-article-figure">
+                <img src="img/Cicero_Placeholder_Main_Article.png" alt="placeholder" id="main-article-image">
+              </figure>
+            </article>
+            <div id="main-article-additional-info">
+              <div id="main-article-additional-info-left">
               <span>
                 <i>di Lorem ipsum dolor sit amet</i>
               </span>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </p>
-              <ul id="mian-article-additional-info-list">
-                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <i>di Lorem ipsum</i></li>
-                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <i>di Lorem ipsum</i></li>
-                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <i>di Lorem ipsum</i></li>
-              </ul>
-            </div>
-            <div id="main-article-additional-info-right">
-              <p class="main-article-additional-info-right-paragraph">
-                Lorem ipsum dolor sit amet
-              </p>
-              <p class="main-article-additional-info-right-paragraph">
-                Lorem ipsum dolor sit amet
-              </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                <ul id="mian-article-additional-info-list">
+                  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <i>di Lorem ipsum</i></li>
+                  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <i>di Lorem ipsum</i></li>
+                  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <i>di Lorem ipsum</i></li>
+                </ul>
+              </div>
+              <div id="main-article-additional-info-right">
+                <p class="main-article-additional-info-right-paragraph">
+                  Lorem ipsum dolor sit amet
+                </p>
+                <p class="main-article-additional-info-right-paragraph">
+                  Lorem ipsum dolor sit amet
+                </p>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="articles-container">
-          <div class="articles-container-left">
-            <div class="coupled-articles-container">
-              <div class="coupled-articles-left-article-container coupled-articles-article-container">
+          <div class="articles-container">
+            <div class="left-container">
+              <div class="coupled-articles-container">
+                <div class="coupled-articles-left-article-container coupled-articles-article-container">
                 <span class="coupled-articles-top-writing">
                   LOREM IPSUM
                 </span>
-                <h2>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
-                </h2>
-                <div class="coupled-articles-image-and-comment-container">
-                  <figure>
-                    <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
-                  </figure>
-                  <div class="coupled-articles-image-comment-container">
+                  <h2>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
+                  </h2>
+                  <div class="coupled-articles-image-and-comment-container">
+                    <figure>
+                      <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
+                    </figure>
+                    <div class="coupled-articles-image-comment-container">
                     <span>
                       di Lorem Ipsum
                     </span>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
-                    </p>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="coupled-articles-right-article-container coupled-articles-article-container">
+                <span class="coupled-articles-top-writing">
+                  LOREM IPSUM
+                </span>
+                  <h2>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
+                  </h2>
+                  <div class="coupled-articles-image-and-comment-container">
+                    <figure>
+                      <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
+                    </figure>
+                    <div class="coupled-articles-image-comment-container">
+                      <span>
+                        di Lorem Ipsum
+                      </span>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
 
-              <div class="coupled-articles-right-article-container coupled-articles-article-container">
-                <span class="coupled-articles-top-writing">
-                  LOREM IPSUM
-                </span>
-                <h2>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
-                </h2>
-                <div class="coupled-articles-image-and-comment-container">
-                  <figure>
-                    <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
-                  </figure>
-                  <div class="coupled-articles-image-comment-container">
-                    <span>
-                      di Lorem Ipsum
-                    </span>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div id="secondary-article-container">
+              <div id="secondary-article-container">
               <span>
                 Lorem ipsum
               </span>
-              <article id="secondary-article">
-                <h2>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
-                  Praesent venenatis velit lectus, vitae imperdiet nibh tempor vel. Sed rutrum mauris vel mi ullamcorper
-                  dictum.
-                </h2>
-                <figure>
-                  <img src="img/Cicero_Placeholder_Secondary_Article.png" alt="placeholder">
-                </figure>
-              </article>
-              <span>
+                <article id="secondary-article">
+                  <h2>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
+                    Praesent venenatis velit lectus, vitae imperdiet nibh tempor vel. Sed rutrum mauris vel mi ullamcorper
+                    dictum.
+                  </h2>
+                  <figure>
+                    <img src="img/Cicero_Placeholder_Secondary_Article.png" alt="placeholder">
+                  </figure>
+                </article>
+                <span>
                 <i>di Lorem ipsum dolor sit amet</i>
               </span>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </p>
-              <ul id="secondary-article-additional-info-list">
-                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <i>di Lorem ipsum</i></li>
-                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <i>di Lorem ipsum</i></li>
-                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <i>di Lorem ipsum</i></li>
-              </ul>
-            </div>
-
-            <div class="generic-article-container">
-              <figure>
-                <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder" class="generic-article-placeholder">
-              </figure>
-              <div class="generic-article-info-container">
-                <h3>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </h3>
-                <span>
-                  <i>di Lorem ipsum dolor sit amet</i>
-                </span>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
-                <ul class="generic-article-additional-info-list">
+                <ul id="secondary-article-additional-info-list">
+                  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <i>di Lorem ipsum</i></li>
+                  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <i>di Lorem ipsum</i></li>
                   <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <i>di Lorem ipsum</i></li>
                 </ul>
               </div>
-            </div>
 
-            <div class="generic-article-container">
-              <figure>
-                <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder" class="generic-article-placeholder">
-              </figure>
-              <div class="generic-article-info-container">
-                <h3>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </h3>
-                <span>
+              <div class="generic-article-container">
+                <figure>
+                  <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder" class="generic-article-placeholder">
+                </figure>
+                <div class="generic-article-info-container">
+                  <h3>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </h3>
+                  <span>
                   <i>di Lorem ipsum dolor sit amet</i>
                 </span>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-                <ul class="generic-article-additional-info-list">
-                  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <i>di Lorem ipsum</i></li>
-                </ul>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                  <ul class="generic-article-additional-info-list">
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <i>di Lorem ipsum</i></li>
+                  </ul>
+                </div>
               </div>
-            </div>
 
-            <div id="frammenti-container">
-              <div id="frammenti-writing">
+              <div class="generic-article-container">
+                <figure>
+                  <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder" class="generic-article-placeholder">
+                </figure>
+                <div class="generic-article-info-container">
+                  <h3>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </h3>
+                  <span>
+                  <i>di Lorem ipsum dolor sit amet</i>
+                </span>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                  <ul class="generic-article-additional-info-list">
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <i>di Lorem ipsum</i></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div id="frammenti-container">
+                <div id="frammenti-writing">
                 <span>
                   Frammenti
                 </span>
-                <div id="frammenti-writing-underlying-lines">
+                  <div id="frammenti-writing-underlying-lines">
+                  </div>
                 </div>
-              </div>
-              <figure>
-                <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder" class="pfp">
-              </figure>
-              <div id="frammenti-title-and-attribution">
-                <h4>
-                  Lorem ipsum dolor sit amet
-                </h4>
-                <span>
+                <figure>
+                  <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder" class="pfp">
+                </figure>
+                <div id="frammenti-title-and-attribution">
+                  <h4>
+                    Lorem ipsum dolor sit amet
+                  </h4>
+                  <span>
                   di Lorem Ipsum
                 </span>
+                </div>
+                <figure id="frammenti-hourglass-figure">
+                  <img src="img/Hourglass.png" alt="hourglass" id="frammenti-hourglass-img">
+                </figure>
               </div>
-              <figure id="frammenti-hourglass-figure">
-                <img src="img/Hourglass.png" alt="hourglass" id="frammenti-hourglass-img">
-              </figure>
+
+              <div class="three-columns-container">
+                <div class="three-articles-article-container">
+                  <p>Lorem ipsum</p>
+                  <article>
+                    <figure>
+                      <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
+                    </figure>
+                    <h3>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
+                    </h3>
+                  </article>
+                  <p>di Lorem Ipsum</p>
+                </div>
+
+                <div class="three-articles-article-container">
+                  <p>Lorem ipsum</p>
+                  <article>
+                    <figure>
+                      <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
+                    </figure>
+                    <h3>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
+                    </h3>
+                  </article>
+                  <p>di Lorem Ipsum</p>
+                </div>
+
+                <div class="three-articles-article-container">
+                  <p>Lorem ipsum</p>
+                  <article>
+                    <figure>
+                      <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
+                    </figure>
+                    <h3>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
+                    </h3>
+                  </article>
+                  <p>di Lorem Ipsum</p>
+                </div>
+              </div>
+
+              <!--todo rinomina le classi dei tag-->
+              <div id="four-articles-in-a-square">
+                <div id="four-articles-in-a-square-upper-articles">
+                  <div id="four-articles-in-a-square-upper-articles-left-article-container"
+                       class="coupled-articles-article-container">
+                  <span class="coupled-articles-top-writing">
+                    LOREM IPSUM
+                  </span>
+                    <h2>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
+                    </h2>
+                    <div class="coupled-articles-image-and-comment-container">
+                      <figure>
+                        <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
+                      </figure>
+                      <div class="coupled-articles-image-comment-container">
+                    <span>
+                      di Lorem Ipsum
+                    </span>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="four-articles-in-a-square-upper-articles-right-article-container"
+                       class="coupled-articles-article-container">
+                  <span class="coupled-articles-top-writing">
+                    LOREM IPSUM
+                  </span>
+                    <h2>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
+                    </h2>
+                    <div class="coupled-articles-image-and-comment-container">
+                      <figure>
+                        <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
+                      </figure>
+                      <div class="coupled-articles-image-comment-container">
+                    <span>
+                      di Lorem Ipsum
+                    </span>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div id="four-articles-in-a-square-lower-articles">
+                  <div id="four-articles-in-a-square-lower-articles-left-article-container"
+                       class="coupled-articles-article-container">
+                  <span class="coupled-articles-top-writing">
+                    LOREM IPSUM
+                  </span>
+                    <h2>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
+                    </h2>
+                    <div class="coupled-articles-image-and-comment-container">
+                      <figure>
+                        <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
+                      </figure>
+                      <div class="coupled-articles-image-comment-container">
+                    <span>
+                      di Lorem Ipsum
+                    </span>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="four-articles-in-a-square-lower-articles-right-article-container"
+                       class="coupled-articles-article-container">
+                  <span class="coupled-articles-top-writing">
+                    LOREM IPSUM
+                  </span>
+                    <h2>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
+                    </h2>
+                    <div class="coupled-articles-image-and-comment-container">
+                      <figure>
+                        <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
+                      </figure>
+                      <div class="coupled-articles-image-comment-container">
+                    <span>
+                      di Lorem Ipsum
+                    </span>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
 
-            <div class="three-columns-container">
-              <div class="three-articles-article-container">
-                <p>Lorem ipsum</p>
-                <article>
-                  <figure>
-                    <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
-                  </figure>
-                  <h3>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
-                  </h3>
-                </article>
-                <p>di Lorem Ipsum</p>
-              </div>
-
-              <div class="three-articles-article-container">
-                <p>Lorem ipsum</p>
-                <article>
-                  <figure>
-                    <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
-                  </figure>
-                  <h3>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
-                  </h3>
-                </article>
-                <p>di Lorem Ipsum</p>
-              </div>
-
-              <div class="three-articles-article-container">
-                <p>Lorem ipsum</p>
-                <article>
-                  <figure>
-                    <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
-                  </figure>
-                  <h3>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
-                  </h3>
-                </article>
-                <p>di Lorem Ipsum</p>
-              </div>
-            </div>
-
-            <!--todo rinomina le classi dei tag-->
-            <div id="four-articles-in-a-square">
-              <div id="four-articles-in-a-square-upper-articles">
-                <div id="four-articles-in-a-square-upper-articles-left-article-container"
-                class="coupled-articles-article-container">
-                  <span class="coupled-articles-top-writing">
-                    LOREM IPSUM
-                  </span>
-                  <h2>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
-                  </h2>
-                  <div class="coupled-articles-image-and-comment-container">
-                    <figure>
-                      <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
-                    </figure>
-                    <div class="coupled-articles-image-comment-container">
-                    <span>
-                      di Lorem Ipsum
-                    </span>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div id="four-articles-in-a-square-upper-articles-right-article-container"
-                class="coupled-articles-article-container">
-                  <span class="coupled-articles-top-writing">
-                    LOREM IPSUM
-                  </span>
-                  <h2>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
-                  </h2>
-                  <div class="coupled-articles-image-and-comment-container">
-                    <figure>
-                      <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
-                    </figure>
-                    <div class="coupled-articles-image-comment-container">
-                    <span>
-                      di Lorem Ipsum
-                    </span>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div id="four-articles-in-a-square-lower-articles">
-                <div id="four-articles-in-a-square-lower-articles-left-article-container"
-                class="coupled-articles-article-container">
-                  <span class="coupled-articles-top-writing">
-                    LOREM IPSUM
-                  </span>
-                  <h2>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
-                  </h2>
-                  <div class="coupled-articles-image-and-comment-container">
-                    <figure>
-                      <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
-                    </figure>
-                    <div class="coupled-articles-image-comment-container">
-                    <span>
-                      di Lorem Ipsum
-                    </span>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div id="four-articles-in-a-square-lower-articles-right-article-container"
-                class="coupled-articles-article-container">
-                  <span class="coupled-articles-top-writing">
-                    LOREM IPSUM
-                  </span>
-                  <h2>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
-                  </h2>
-                  <div class="coupled-articles-image-and-comment-container">
-                    <figure>
-                      <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
-                    </figure>
-                    <div class="coupled-articles-image-comment-container">
-                    <span>
-                      di Lorem Ipsum
-                    </span>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div id="articles-container-right">
-            <div id="corriere-tv-right-first-article">
-              <div id="corriere-tv-right-first-article-top-bar">
-                <img src="img/Arrow_Left.png" alt="freccia verso sinistra">
-                <span class="corriere-tv-blue-box-writing">
+            <div id="articles-container-right">
+              <div id="corriere-tv-right-first-article">
+                <div id="corriere-tv-right-first-article-top-bar">
+                  <img src="img/Arrow_Left.png" alt="freccia verso sinistra">
+                  <span class="corriere-tv-blue-box-writing">
                   <i>CORRIERE</i>TV
                 </span>
-                <img src="img/Arrow_Right.png" alt="freccia verso destra">
+                  <img src="img/Arrow_Right.png" alt="freccia verso destra">
+                </div>
+
+                <article>
+                  <img src="img/Cicero_Corriere_Tv_Right_Side_Main_Articles.png" alt="placeholder">
+                  <h2>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
+                  </h2>
+                </article>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
               </div>
 
-              <article>
-                <img src="img/Cicero_Corriere_Tv_Right_Side_Main_Articles.png" alt="placeholder">
-                <h2>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
-                </h2>
-              </article>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </p>
-            </div>
-
-            <div id="corriere-tv-right-second-article">
-              <div id="corriere-tv-right-second-article-top-bar">
+              <div id="corriere-tv-right-second-article">
+                <div id="corriere-tv-right-second-article-top-bar">
                 <span class="corriere-tv-blue-box-writing">
                 <i>CORRIERE</i>TV
               </span>
+                </div>
+
+                <article>
+                  <img src="img/Cicero_Corriere_Tv_Right_Side_Main_Articles.png" alt="placeholder">
+                  <h2>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
+                  </h2>
+                </article>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
               </div>
 
-              <article>
-                <img src="img/Cicero_Corriere_Tv_Right_Side_Main_Articles.png" alt="placeholder">
-                <h2>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
-                </h2>
-              </article>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </p>
-            </div>
-
-            <div id="editoriali-commenti">
+              <div id="editoriali-commenti">
               <span>
                 EDITORIALI <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder" class="pfp"> COMMENTI
               </span>
-              <div>
-                <hr>
-              </div>
+                <div>
+                  <hr>
+                </div>
 
-              <div class="editoriali-commenti-comment">
-                <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder" class="pfp">
-                <div class="editoriali-commenti-comment-title-and-author">
-                  <h4>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </h4>
-                  <p>
-                    di Lorem Ipsum
-                  </p>
+                <div class="editoriali-commenti-comment">
+                  <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder" class="pfp">
+                  <div class="editoriali-commenti-comment-title-and-author">
+                    <h4>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </h4>
+                    <p>
+                      di Lorem Ipsum
+                    </p>
+                  </div>
+                </div>
+
+                <div class="editoriali-commenti-comment">
+                  <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder" class="pfp">
+                  <div class="editoriali-commenti-comment-title-and-author">
+                    <h4>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </h4>
+                    <p>
+                      di Lorem Ipsum
+                    </p>
+                  </div>
+                </div>
+
+                <div class="editoriali-commenti-comment">
+                  <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder" class="pfp">
+                  <div class="editoriali-commenti-comment-title-and-author">
+                    <h4>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </h4>
+                    <p>
+                      di Lorem Ipsum
+                    </p>
+                  </div>
+                </div>
+
+                <div class="editoriali-commenti-comment">
+                  <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder" class="pfp">
+                  <div class="editoriali-commenti-comment-title-and-author">
+                    <h4>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </h4>
+                    <p>
+                      di Lorem Ipsum
+                    </p>
+                  </div>
                 </div>
               </div>
 
-              <div class="editoriali-commenti-comment">
-                <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder" class="pfp">
-                <div class="editoriali-commenti-comment-title-and-author">
-                  <h4>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </h4>
-                  <p>
-                    di Lorem Ipsum
-                  </p>
+              <div class="generic-article-container">
+                <div class="three-articles-article-container">
+                  <p>Lorem ipsum</p>
+                  <article>
+                    <figure>
+                      <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
+                    </figure>
+                    <h3>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
+                    </h3>
+                  </article>
+                  <p>di Lorem Ipsum</p>
                 </div>
-              </div>
-
-              <div class="editoriali-commenti-comment">
-                <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder" class="pfp">
-                <div class="editoriali-commenti-comment-title-and-author">
-                  <h4>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </h4>
-                  <p>
-                    di Lorem Ipsum
-                  </p>
-                </div>
-              </div>
-
-              <div class="editoriali-commenti-comment">
-                <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder" class="pfp">
-                <div class="editoriali-commenti-comment-title-and-author">
-                  <h4>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </h4>
-                  <p>
-                    di Lorem Ipsum
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="generic-article-container">
-              <div class="three-articles-article-container">
-                <p>Lorem ipsum</p>
-                <article>
-                  <figure>
-                    <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
-                  </figure>
-                  <h3>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
-                  </h3>
-                </article>
-                <p>di Lorem Ipsum</p>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section id="city-news">
-        <div class="secondary-section-title-container">
-          <h4>
-            FIRENZE
-          </h4>
-          <img src="img/Right_Arrow_Generic.png" alt="freccia a destra">
-        </div>
+        <section id="city-news">
+          <div class="secondary-section-title-container">
+            <h4>
+              FIRENZE
+            </h4>
+            <img src="img/Right_Arrow_Generic.png" alt="freccia a destra">
+          </div>
 
-        <div class="articles-container">
-          <div class="articles-container-left">
-            <div class="generic-article-container">
-              <figure>
-                <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder" class="generic-article-placeholder">
-              </figure>
-              <div class="generic-article-info-container">
-                <h3>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </h3>
-                <span>
+          <div class="articles-container">
+            <div class="left-container">
+              <div class="generic-article-container">
+                <figure>
+                  <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder" class="generic-article-placeholder">
+                </figure>
+                <div class="generic-article-info-container">
+                  <h3>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </h3>
+                  <span>
                   <i>di Lorem ipsum dolor sit amet</i>
                 </span>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-              </div>
-            </div>
-
-            <div class="coupled-articles-container">
-              <div class="coupled-articles-left-article-container coupled-articles-article-container">
-                <span class="coupled-articles-top-writing">
-                  LOREM IPSUM
-                </span>
-                <h2>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
-                </h2>
-                <div class="coupled-articles-image-and-comment-container">
-                  <figure>
-                    <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
-                  </figure>
-                  <div class="coupled-articles-image-comment-container">
-                    <span>
-                      di Lorem Ipsum
-                    </span>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
-                    </p>
-                  </div>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
                 </div>
               </div>
 
-              <div class="coupled-articles-right-article-container coupled-articles-article-container">
+              <div class="coupled-articles-container">
+                <div class="coupled-articles-left-article-container coupled-articles-article-container">
                 <span class="coupled-articles-top-writing">
                   LOREM IPSUM
                 </span>
-                <h2>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
-                </h2>
-                <div class="coupled-articles-image-and-comment-container">
-                  <figure>
-                    <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
-                  </figure>
-                  <div class="coupled-articles-image-comment-container">
-                    <span>
-                      di Lorem Ipsum
-                    </span>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="articles-container-right">
-            <div class="generic-article-container">
-              <div class="three-articles-article-container">
-                <p>Lorem ipsum</p>
-                <article>
-                  <figure>
-                    <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
-                  </figure>
-                  <h3>
+                  <h2>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
-                  </h3>
-                </article>
-                <p>di Lorem Ipsum</p>
+                  </h2>
+                  <div class="coupled-articles-image-and-comment-container">
+                    <figure>
+                      <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
+                    </figure>
+                    <div class="coupled-articles-image-comment-container">
+                    <span>
+                      di Lorem Ipsum
+                    </span>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="coupled-articles-right-article-container coupled-articles-article-container">
+                <span class="coupled-articles-top-writing">
+                  LOREM IPSUM
+                </span>
+                  <h2>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
+                  </h2>
+                  <div class="coupled-articles-image-and-comment-container">
+                    <figure>
+                      <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
+                    </figure>
+                    <div class="coupled-articles-image-comment-container">
+                    <span>
+                      di Lorem Ipsum
+                    </span>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="right-container">
+              <div class="generic-article-container">
+                <div class="three-articles-article-container">
+                  <p>Lorem ipsum</p>
+                  <article>
+                    <figure>
+                      <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
+                    </figure>
+                    <h3>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
+                    </h3>
+                  </article>
+                  <p>di Lorem Ipsum</p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section id="world-news">
-        <div class="secondary-section-title-container">
-          <h4>
-            MONDO
-          </h4>
-          <img src="img/Right_Arrow_Generic.png" alt="freccia a destra">
-        </div>
+        <section id="world-news">
+          <div class="secondary-section-title-container">
+            <h4>
+              MONDO
+            </h4>
+            <img src="img/Right_Arrow_Generic.png" alt="freccia a destra">
+          </div>
 
-        <div class="articles-container">
-          <div class="articles-container-left">
-            <div class="generic-article-container">
-              <figure>
-                <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder" class="generic-article-placeholder">
-              </figure>
-              <div class="generic-article-info-container">
-                <h3>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </h3>
-                <span>
+          <div class="articles-container">
+            <div class="left-container">
+              <div class="generic-article-container">
+                <figure>
+                  <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder" class="generic-article-placeholder">
+                </figure>
+                <div class="generic-article-info-container">
+                  <h3>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </h3>
+                  <span>
                   <i>di Lorem ipsum dolor sit amet</i>
                 </span>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-              </div>
-            </div>
-
-            <div class="coupled-articles-container">
-              <div class="coupled-articles-left-article-container coupled-articles-article-container">
-                <span class="coupled-articles-top-writing">
-                  LOREM IPSUM
-                </span>
-                <h2>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
-                </h2>
-                <div class="coupled-articles-image-and-comment-container">
-                  <figure>
-                    <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
-                  </figure>
-                  <div class="coupled-articles-image-comment-container">
-                    <span>
-                      di Lorem Ipsum
-                    </span>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
-                    </p>
-                  </div>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
                 </div>
               </div>
 
-              <div class="coupled-articles-right-article-container coupled-articles-article-container">
+              <div class="coupled-articles-container">
+                <div class="coupled-articles-left-article-container coupled-articles-article-container">
                 <span class="coupled-articles-top-writing">
                   LOREM IPSUM
                 </span>
-                <h2>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
-                </h2>
-                <div class="coupled-articles-image-and-comment-container">
-                  <figure>
-                    <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
-                  </figure>
-                  <div class="coupled-articles-image-comment-container">
-                    <span>
-                      di Lorem Ipsum
-                    </span>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="articles-container-right">
-            <div class="generic-article-container">
-              <div class="three-articles-article-container">
-                <p>Lorem ipsum</p>
-                <article>
-                  <figure>
-                    <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
-                  </figure>
-                  <h3>
+                  <h2>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
-                  </h3>
-                </article>
-                <p>di Lorem Ipsum</p>
+                  </h2>
+                  <div class="coupled-articles-image-and-comment-container">
+                    <figure>
+                      <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
+                    </figure>
+                    <div class="coupled-articles-image-comment-container">
+                    <span>
+                      di Lorem Ipsum
+                    </span>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="coupled-articles-right-article-container coupled-articles-article-container">
+                <span class="coupled-articles-top-writing">
+                  LOREM IPSUM
+                </span>
+                  <h2>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
+                  </h2>
+                  <div class="coupled-articles-image-and-comment-container">
+                    <figure>
+                      <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
+                    </figure>
+                    <div class="coupled-articles-image-comment-container">
+                    <span>
+                      di Lorem Ipsum
+                    </span>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="right-container">
+              <div class="generic-article-container">
+                <div class="three-articles-article-container">
+                  <p>Lorem ipsum</p>
+                  <article>
+                    <figure>
+                      <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
+                    </figure>
+                    <h3>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
+                    </h3>
+                  </article>
+                  <p>di Lorem Ipsum</p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section id="blog-e-rubriche">
+        <section id="blog-e-rubriche">
         <span>
           BLOG <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder" class="pfp"> RUBRICHE
         </span>
 
-        <div class="three-columns-container">
-          <div class="three-columns-column">
-            <div class="editoriali-commenti-comment">
-              <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder" class="pfp">
-              <div class="editoriali-commenti-comment-title-and-author">
-                <h4>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </h4>
-                <p>
-                  di Lorem Ipsum
-                </p>
+          <div class="three-columns-container">
+            <div class="three-columns-column">
+              <div class="editoriali-commenti-comment">
+                <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder" class="pfp">
+                <div class="editoriali-commenti-comment-title-and-author">
+                  <h4>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </h4>
+                  <p>
+                    di Lorem Ipsum
+                  </p>
+                </div>
+              </div>
+
+              <div class="editoriali-commenti-comment">
+                <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder" class="pfp">
+                <div class="editoriali-commenti-comment-title-and-author">
+                  <h4>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </h4>
+                  <p>
+                    di Lorem Ipsum
+                  </p>
+                </div>
+              </div>
+
+              <div class="editoriali-commenti-comment">
+                <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder" class="pfp">
+                <div class="editoriali-commenti-comment-title-and-author">
+                  <h4>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </h4>
+                  <p>
+                    di Lorem Ipsum
+                  </p>
+                </div>
               </div>
             </div>
 
-            <div class="editoriali-commenti-comment">
-              <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder" class="pfp">
-              <div class="editoriali-commenti-comment-title-and-author">
-                <h4>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </h4>
+            <div class="three-columns-column">
+              <div id="blog-e-rubriche-cartoon-section">
                 <p>
-                  di Lorem Ipsum
+                  LOREM IPSUM
                 </p>
+                <figure>
+                  <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
+                </figure>
+              </div>
+
+              <div class="editoriali-commenti-comment">
+                <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder" class="pfp">
+                <div class="editoriali-commenti-comment-title-and-author">
+                  <h4>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </h4>
+                  <p>
+                    di Lorem Ipsum
+                  </p>
+                </div>
+              </div>
+
+              <div class="editoriali-commenti-comment">
+                <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder" class="pfp">
+                <div class="editoriali-commenti-comment-title-and-author">
+                  <h4>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </h4>
+                  <p>
+                    di Lorem Ipsum
+                  </p>
+                </div>
               </div>
             </div>
 
-            <div class="editoriali-commenti-comment">
-              <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder" class="pfp">
-              <div class="editoriali-commenti-comment-title-and-author">
-                <h4>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </h4>
-                <p>
-                  di Lorem Ipsum
-                </p>
+            <div class="three-columns-column">
+              <div class="editoriali-commenti-comment">
+                <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder" class="pfp">
+                <div class="editoriali-commenti-comment-title-and-author">
+                  <h4>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </h4>
+                  <p>
+                    di Lorem Ipsum
+                  </p>
+                </div>
+              </div>
+
+              <div class="editoriali-commenti-comment">
+                <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder" class="pfp">
+                <div class="editoriali-commenti-comment-title-and-author">
+                  <h4>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </h4>
+                  <p>
+                    di Lorem Ipsum
+                  </p>
+                </div>
+              </div>
+
+              <div class="editoriali-commenti-comment">
+                <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder" class="pfp">
+                <div class="editoriali-commenti-comment-title-and-author">
+                  <h4>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </h4>
+                  <p>
+                    di Lorem Ipsum
+                  </p>
+                </div>
               </div>
             </div>
           </div>
+        </section>
 
-          <div class="three-columns-column">
-            <div id="blog-e-rubriche-cartoon-section">
-              <p>
-                LOREM IPSUM
-              </p>
-              <figure>
-                <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
-              </figure>
-            </div>
-
-            <div class="editoriali-commenti-comment">
-              <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder" class="pfp">
-              <div class="editoriali-commenti-comment-title-and-author">
-                <h4>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </h4>
-                <p>
-                  di Lorem Ipsum
-                </p>
-              </div>
-            </div>
-
-            <div class="editoriali-commenti-comment">
-              <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder" class="pfp">
-              <div class="editoriali-commenti-comment-title-and-author">
-                <h4>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </h4>
-                <p>
-                  di Lorem Ipsum
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="three-columns-column">
-            <div class="editoriali-commenti-comment">
-              <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder" class="pfp">
-              <div class="editoriali-commenti-comment-title-and-author">
-                <h4>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </h4>
-                <p>
-                  di Lorem Ipsum
-                </p>
-              </div>
-            </div>
-
-            <div class="editoriali-commenti-comment">
-              <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder" class="pfp">
-              <div class="editoriali-commenti-comment-title-and-author">
-                <h4>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </h4>
-                <p>
-                  di Lorem Ipsum
-                </p>
-              </div>
-            </div>
-
-            <div class="editoriali-commenti-comment">
-              <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder" class="pfp">
-              <div class="editoriali-commenti-comment-title-and-author">
-                <h4>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </h4>
-                <p>
-                  di Lorem Ipsum
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="video-dalla-rete">
+        <section id="video-dalla-rete">
         <span>
           I VIDEO DALLA RETE
         </span>
 
-        <div class="flex-row-container">
-          <figure>
-            <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
-            <figcaption>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
-            </figcaption>
-          </figure>
+          <div class="flex-row-container">
+            <figure>
+              <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
+              <figcaption>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
+              </figcaption>
+            </figure>
 
-          <figure>
-            <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
-            <figcaption>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
-            </figcaption>
-          </figure>
+            <figure>
+              <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
+              <figcaption>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
+              </figcaption>
+            </figure>
 
-          <figure>
-            <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
-            <figcaption>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
-            </figcaption>
-          </figure>
+            <figure>
+              <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
+              <figcaption>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
+              </figcaption>
+            </figure>
 
-          <figure>
-            <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
-            <figcaption>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
-            </figcaption>
-          </figure>
-        </div>
-      </section>
+            <figure>
+              <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
+              <figcaption>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
+              </figcaption>
+            </figure>
+          </div>
+        </section>
 
-      <section id="garbage-section" class="flex-row-container">
-        <div class="garbage-element">
+        <section id="garbage-section" class="flex-row-container">
+          <div class="garbage-element">
           <span>
             LOREM IPSUM
           </span>
 
-          <figure>
-            <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
-            <figcaption>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
-            </figcaption>
-          </figure>
-        </div>
+            <figure>
+              <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
+              <figcaption>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
+              </figcaption>
+            </figure>
+          </div>
 
-        <div class="garbage-element">
+          <div class="garbage-element">
           <span>
             LOREM IPSUM
           </span>
 
-          <figure>
-            <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
-            <figcaption>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
-            </figcaption>
-          </figure>
-        </div>
+            <figure>
+              <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
+              <figcaption>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
+              </figcaption>
+            </figure>
+          </div>
 
-        <div class="garbage-element">
+          <div class="garbage-element">
           <span>
             LOREM IPSUM
           </span>
 
-          <figure>
-            <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
-            <figcaption>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
-            </figcaption>
-          </figure>
-        </div>
+            <figure>
+              <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
+              <figcaption>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
+              </figcaption>
+            </figure>
+          </div>
 
-        <div class="garbage-element">
+          <div class="garbage-element">
           <span>
             LOREM IPSUM
           </span>
 
-          <figure>
-            <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
-            <figcaption>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
-            </figcaption>
-          </figure>
-        </div>
-      </section>
+            <figure>
+              <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
+              <figcaption>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
+              </figcaption>
+            </figure>
+          </div>
+        </section>
 
-      <div id="i-più-container" class="flex-row-container">
-        <section id="i-più-visti" class="half-container flex-column-container">
+        <div id="i-più-container" class="flex-row-container">
+          <section id="i-più-visti" class="half-container flex-column-container">
           <span>
             I PIÙ VISTI
           </span>
 
-          <div class="flex-row-container">
-            <div>
-              <ul>
-                <li>
-                  <figure>
-                    <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
-                    <figcaption>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
-                    </figcaption>
-                  </figure>
-                </li>
-                <li>
-                  <figure>
-                    <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
-                    <figcaption>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
-                    </figcaption>
-                  </figure>
-                </li>
-              </ul>
-            </div>
+            <div class="flex-row-container">
+              <div>
+                <ul>
+                  <li>
+                    <figure>
+                      <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
+                      <figcaption>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
+                      </figcaption>
+                    </figure>
+                  </li>
+                  <li>
+                    <figure>
+                      <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
+                      <figcaption>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
+                      </figcaption>
+                    </figure>
+                  </li>
+                </ul>
+              </div>
 
-            <div>
-              <ul>
-                <li>
-                  <figure>
-                    <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
-                    <figcaption>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
-                    </figcaption>
-                  </figure>
-                </li>
-                <li>
-                  <figure>
-                    <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
-                    <figcaption>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
-                    </figcaption>
-                  </figure>
-                </li>
-              </ul>
+              <div>
+                <ul>
+                  <li>
+                    <figure>
+                      <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
+                      <figcaption>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
+                      </figcaption>
+                    </figure>
+                  </li>
+                  <li>
+                    <figure>
+                      <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
+                      <figcaption>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
+                      </figcaption>
+                    </figure>
+                  </li>
+                </ul>
+              </div>
             </div>
-          </div>
-        </section>
+          </section>
 
-        <section id="i-più-letti" class="half-container flex-column-container">
+          <section id="i-più-letti" class="half-container flex-column-container">
           <span>
             I PIÙ LETTI
           </span>
 
-          <div class="flex-row-container">
-            <div>
-              <ul>
-                <li>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
-                </li>
-              </ul>
+            <div class="flex-row-container">
+              <div>
+                <ul>
+                  <li>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+
+              <div>
+                <ul>
+                  <li>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <section id="i-blog-del-corriere">
+          <h4 id="i-blog-del-corriere-title">
+            I BLOG DEL CORRIERE
+          </h4>
+
+          <div id="i-blog-del-corriere-first-row" class="flex-row-container">
+            <div class="flex-row-container">
+              <div>
+                <h3>
+                  LOREM IPSUM
+                </h3>
+                <p>
+                  di Lorem Ipsum
+                </p>
+              </div>
+              <img src="img/Right_Arrow_Generic.png" alt="freccia a destra">
             </div>
 
-            <div>
-              <ul>
-                <li>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
-                </li>
-              </ul>
+            <div class="flex-row-container">
+              <div>
+                <h3>
+                  LOREM IPSUM
+                </h3>
+                <p>
+                  di Lorem Ipsum
+                </p>
+              </div>
+              <img src="img/Right_Arrow_Generic.png" alt="freccia a destra">
+            </div>
+
+            <div class="flex-row-container">
+              <div>
+                <h3>
+                  LOREM IPSUM
+                </h3>
+                <p>
+                  di Lorem Ipsum
+                </p>
+              </div>
+              <img src="img/Right_Arrow_Generic.png" alt="freccia a destra">
+            </div>
+
+            <div class="flex-row-container">
+              <div>
+                <h3>
+                  LOREM IPSUM
+                </h3>
+                <p>
+                  di Lorem Ipsum
+                </p>
+              </div>
+              <img src="img/Right_Arrow_Generic.png" alt="freccia a destra">
+            </div>
+
+            <div class="flex-row-container">
+              <div>
+                <h3>
+                  LOREM IPSUM
+                </h3>
+                <p>
+                  di Lorem Ipsum
+                </p>
+              </div>
+              <img src="img/Right_Arrow_Generic.png" alt="freccia a destra">
+            </div>
+          </div>
+
+          <div id="i-blog-del-corriere-second-row" class="flex-row-container">
+            <div class="flex-row-container">
+              <div>
+                <h3>
+                  LOREM IPSUM
+                </h3>
+                <p>
+                  di Lorem Ipsum
+                </p>
+              </div>
+              <img src="img/Right_Arrow_Generic.png" alt="freccia a destra">
+            </div>
+
+            <div class="flex-row-container">
+              <div>
+                <h3>
+                  LOREM IPSUM
+                </h3>
+                <p>
+                  di Lorem Ipsum
+                </p>
+              </div>
+              <img src="img/Right_Arrow_Generic.png" alt="freccia a destra">
+            </div>
+
+            <div class="flex-row-container">
+              <div>
+                <h3>
+                  LOREM IPSUM
+                </h3>
+                <p>
+                  di Lorem Ipsum
+                </p>
+              </div>
+              <img src="img/Right_Arrow_Generic.png" alt="freccia a destra">
+            </div>
+
+            <div class="flex-row-container">
+              <div>
+                <h3>
+                  LOREM IPSUM
+                </h3>
+                <p>
+                  di Lorem Ipsum
+                </p>
+              </div>
+              <img src="img/Right_Arrow_Generic.png" alt="freccia a destra">
+            </div>
+
+            <div class="flex-row-container">
+              <div>
+                <h3>
+                  LOREM IPSUM
+                </h3>
+                <p>
+                  di Lorem Ipsum
+                </p>
+              </div>
+              <img src="img/Right_Arrow_Generic.png" alt="freccia a destra">
             </div>
           </div>
         </section>
       </div>
+    </main>
 
-      <section id="i-blog-del-corriere">
-        <h4 id="i-blog-del-corriere-title">
-          I BLOG DEL CORRIERE
-        </h4>
+    <footer>
+      <div id="footer-container">
+        <div class="articles-container">
+          <div class="left-container">
+            <h4 id="corriere-della-sera-footer-title">
+              CORRIERE DELLA SERA
+            </h4>
 
-        <div id="i-blog-del-corriere-first-row" class="flex-row-container">
-          <div class="flex-row-container">
             <div>
-              <h3>
-                LOREM IPSUM
-              </h3>
-              <p>
-                di Lorem Ipsum
-              </p>
+              <span>
+                Lorem Ipsum |
+              </span>
+              <span>
+                Lorem Ipsum |
+              </span>
+              <span>
+                Lorem Ipsum |
+              </span>
+              <span>
+                Lorem Ipsum |
+              </span>
+              <span>
+                Lorem Ipsum |
+              </span>
+              <span>
+                Lorem Ipsum |
+              </span>
+              <span>
+                Lorem Ipsum |
+              </span>
+              <span>
+                Lorem Ipsum
+              </span>
             </div>
-            <img src="img/Right_Arrow_Generic.png" alt="freccia a destra">
+
+            <div>
+              Copyright 2025 &copy; Lorem Ipsum S.p.a.
+            </div>
           </div>
 
-          <div class="flex-row-container">
+          <div class="right-container">
             <div>
-              <h3>
-                LOREM IPSUM
-              </h3>
-              <p>
-                di Lorem Ipsum
-              </p>
+              <span>
+                Lorem Ipsum |
+              </span>
+              <span>
+                Lorem Ipsum |
+              </span>
+              <span>
+                Lorem Ipsum
+              </span>
             </div>
-            <img src="img/Right_Arrow_Generic.png" alt="freccia a destra">
-          </div>
 
-          <div class="flex-row-container">
             <div>
-              <h3>
-                LOREM IPSUM
-              </h3>
-              <p>
-                di Lorem Ipsum
-              </p>
+              <span>
+                Lorem Ipsum |
+              </span>
+              <span>
+                Lorem Ipsum |
+              </span>
+              <span>
+                Lorem Ipsum
+              </span>
             </div>
-            <img src="img/Right_Arrow_Generic.png" alt="freccia a destra">
-          </div>
-
-          <div class="flex-row-container">
-            <div>
-              <h3>
-                LOREM IPSUM
-              </h3>
-              <p>
-                di Lorem Ipsum
-              </p>
-            </div>
-            <img src="img/Right_Arrow_Generic.png" alt="freccia a destra">
-          </div>
-
-          <div class="flex-row-container">
-            <div>
-              <h3>
-                LOREM IPSUM
-              </h3>
-              <p>
-                di Lorem Ipsum
-              </p>
-            </div>
-            <img src="img/Right_Arrow_Generic.png" alt="freccia a destra">
-          </div>
-        </div>
-
-        <div id="i-blog-del-corriere-second-row" class="flex-row-container">
-          <div class="flex-row-container">
-            <div>
-              <h3>
-                LOREM IPSUM
-              </h3>
-              <p>
-                di Lorem Ipsum
-              </p>
-            </div>
-            <img src="img/Right_Arrow_Generic.png" alt="freccia a destra">
-          </div>
-
-          <div class="flex-row-container">
-            <div>
-              <h3>
-                LOREM IPSUM
-              </h3>
-              <p>
-                di Lorem Ipsum
-              </p>
-            </div>
-            <img src="img/Right_Arrow_Generic.png" alt="freccia a destra">
-          </div>
-
-          <div class="flex-row-container">
-            <div>
-              <h3>
-                LOREM IPSUM
-              </h3>
-              <p>
-                di Lorem Ipsum
-              </p>
-            </div>
-            <img src="img/Right_Arrow_Generic.png" alt="freccia a destra">
-          </div>
-
-          <div class="flex-row-container">
-            <div>
-              <h3>
-                LOREM IPSUM
-              </h3>
-              <p>
-                di Lorem Ipsum
-              </p>
-            </div>
-            <img src="img/Right_Arrow_Generic.png" alt="freccia a destra">
-          </div>
-
-
-          <div class="flex-row-container">
-            <div>
-              <h3>
-                LOREM IPSUM
-              </h3>
-              <p>
-                di Lorem Ipsum
-              </p>
-            </div>
-            <img src="img/Right_Arrow_Generic.png" alt="freccia a destra">
           </div>
         </div>
-      </section>
-    </div>
-  </main>
-
-  <footer>
-
-  </footer>
+      </div>
+    </footer>
+  </div>
 
 </body>
 

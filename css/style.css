@@ -77,6 +77,14 @@
   max-height: 20px;
 }
 
+#page-container
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 main
 {
   display: flex;
@@ -226,14 +234,14 @@ main
   flex-direction: row;
 }
 
-.articles-container-left
+.left-container
 {
   display: flex;
   flex-direction: column;
   flex-basis: 70%;
 }
 
-.articles-container-right
+.right-container
 {
   display: flex;
   flex-direction: column;
@@ -397,4 +405,19 @@ main
 {
   display: flex;
   justify-content: center;
+}
+
+footer
+{
+  display: flex;
+  justify-content: center;
+  max-width: 930px;
+  width: 100%;
+}
+
+#footer-container
+{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
 }
