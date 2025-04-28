@@ -17,13 +17,24 @@ input, button, textarea
   font: inherit;
 }
 
+ul
+{
+  list-style-type: square;
+  color: #49b8f1;
+}
+
+.list-color
+{
+  color: black;
+}
+
 #upper-header
 {
   display: flex;
   justify-content: center;
   padding-top: 0.6em;
   padding-bottom: 0.6em;
-  background-color: mediumblue;
+  background-color: #0a5678;
 }
 
 .upper-header-container
@@ -170,8 +181,10 @@ main
 
 #temi-caldi
 {
+  border-top: 1px solid #e6e6e6;
   display: flex;
   flex-basis: 100%;
+  padding-top: 1em;
 }
 
 #temi-caldi-caption
@@ -193,12 +206,25 @@ main
   flex-direction: row;
   flex-basis: 100%;
   justify-content: space-evenly;
+  color: #53bbf1;
+}
+
+.tv-color
+{
+  color: #29aebf;
 }
 
 #corriere-tv-boxes
 {
+  border-top: 1px solid #e6e6e6;
   display: flex;
   flex-direction: column;
+  margin-top: 1em;
+}
+
+#corriere-tv-writing
+{
+  padding: 1em 0 1em 1em;
 }
 
 #corriere-tv-boxes-container
@@ -214,37 +240,84 @@ main
   max-width: 300px;
 }
 
-.corriere-tv-box-picture
+.corriere-tv-box-img
 {
-  margin: 10px 10px 10px 10px;
+  width: 16em;
+  height: 5em;
 }
 
 .corriere-tv-box-text-container
 {
   display: flex;
   flex-direction: column;
+  padding-left: 0.5em;
 }
 
 .corriere-tv-box-title
 {
-  font-size: 0.7em;
-  margin: 0 0 0 0;
+  font-size: 0.8em;
+  padding-right: 2em;
 }
 
 .corriere-tv-box-attribution
 {
   font-size: 0.6em;
+  margin-top: 0.2em;
+  color: #53bbf1;
+}
+
+#update-badge-container
+{
+  display: flex;
 }
 
 #update-badge
 {
+  display: flex;
+  align-items: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
   background-color: red;
+}
+
+#update-writing
+{
   color: white;
+}
+
+#main-articles
+{
+  margin-top: 4em;
+  border-top: 1px solid #e6e6e6;
+}
+
+#main-article-container
+{
+  margin-bottom: 1em;
 }
 
 #main-article-title
 {
   font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+#main-article-attribution
+{
+  color: #0a5678;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.paragraph-after-attribution
+{
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+}
+
+.attribution
+{
+  color: #0a5678;
 }
 
 #main-article-figure
@@ -254,8 +327,11 @@ main
 
 #main-article-image
 {
-  object-fit: fill;
-  margin-bottom: -40px;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  max-height: 500px;
+  margin-bottom: -45px;
 }
 
 #main-article-additional-info
@@ -296,6 +372,11 @@ main
   display: flex;
   justify-content: end;
   margin: 0 0 0 0;
+}
+
+#main-article-additional-info-list
+{
+  padding-left: 0.9em;
 }
 
 .articles-container

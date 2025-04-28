@@ -94,25 +94,25 @@
           <span id="temi-caldi-caption">Temi caldi di oggi: </span>
           <nav id="temi-caldi-list-container">
             <ul id="temi-caldi-list">
-              <li>Tema 1</li>
-              <li>Tema 2</li>
-              <li>Tema 3</li>
-              <li>Tema 4</li>
-              <li>Tema 5</li>
-              <li>Tema 6</li>
-              <li>Tema 7</li>
-              <li>Tema 8</li>
+              <li>TEMA 1</li>
+              <li>TEMA 2</li>
+              <li>TEMA 3</li>
+              <li>TEMA 4</li>
+              <li>TEMA 5</li>
+              <li>TEMA 6</li>
+              <li>TEMA 7</li>
+              <li>TEMA 8</li>
             </ul>
           </nav>
         </section>
         <section id="corriere-tv-boxes">
         <span id="corriere-tv-writing">
-          <i>CORRIERE</i>TV
+          <b><i>CORRIERE</i><span class="tv-color">TV</span></b>
         </span>
           <div id="corriere-tv-boxes-container">
             <article class="corriere-tv-box">
               <figure class="corriere-tv-box-picture">
-                <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
+                <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder" class="corriere-tv-box-img">
               </figure>
               <div class="corriere-tv-box-text-container">
                 <h4 class="corriere-tv-box-title">
@@ -124,7 +124,7 @@
 
             <article class="corriere-tv-box">
               <figure class="corriere-tv-box-picture">
-                <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
+                <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder" class="corriere-tv-box-img">
               </figure>
               <div class="corriere-tv-box-text-container">
                 <h4 class="corriere-tv-box-title">
@@ -136,7 +136,7 @@
 
             <article class="corriere-tv-box">
               <figure class="corriere-tv-box-picture">
-                <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
+                <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder" class="corriere-tv-box-img">
               </figure>
               <div class="corriere-tv-box-text-container">
                 <h4 class="corriere-tv-box-title">
@@ -148,7 +148,7 @@
 
             <article class="corriere-tv-box">
               <figure class="corriere-tv-box-picture">
-                <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
+                <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder" class="corriere-tv-box-img">
               </figure>
               <div class="corriere-tv-box-text-container">
                 <h4 class="corriere-tv-box-title">
@@ -159,9 +159,17 @@
             </article>
           </div>
         </section>
+
         <section id="main-articles">
           <div id="main-article-container">
-            <span id="update-badge">In aggiornamento</span>
+            <div id="update-badge-container">
+              <figure id="update-badge">
+                <img src="img/Corriere_Update_Badge_Image.png" alt="simbolo del corriere">
+                <figcaption id="update-writing">
+                  in aggiornamento
+                </figcaption>
+              </figure>
+            </div>
             <article id="main-article">
               <h1 id="main-article-title">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
@@ -174,24 +182,31 @@
             </article>
             <div id="main-article-additional-info">
               <div id="main-article-additional-info-left">
-              <span>
-                <i>di Lorem ipsum dolor sit amet</i>
-              </span>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <div id="main-article-attribution">
+                  <span>
+                    <i>di Lorem ipsum dolor sit amet</i>
+                  </span>
+                </div>
+                <p class="paragraph-after-attribution">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
                 </p>
-                <ul id="mian-article-additional-info-list">
-                  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <i>di Lorem ipsum</i></li>
-                  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <i>di Lorem ipsum</i></li>
-                  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <i>di Lorem ipsum</i></li>
-                </ul>
+                <nav>
+                  <ul id="main-article-additional-info-list">
+                    <li><span class="list-color"><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b></span>
+                    <i class="attribution">di Lorem ipsum</i></li>
+                    <li><span class="list-color"><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b></span>
+                    <i class="attribution">di Lorem ipsum</i></li>
+                    <li><span class="list-color"><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b></span>
+                    <i class="attribution">di Lorem ipsum</i></li>
+                  </ul>
+                </nav>
               </div>
               <div id="main-article-additional-info-right">
                 <p class="main-article-additional-info-right-paragraph">
-                  Lorem ipsum dolor sit amet
+                  <i>Lorem ipsum dolor sit amet</i>
                 </p>
                 <p class="main-article-additional-info-right-paragraph">
-                  Lorem ipsum dolor sit amet
+                  <i>Lorem ipsum dolor sit amet</i>
                 </p>
               </div>
             </div>
@@ -482,7 +497,7 @@
                 <div id="corriere-tv-right-first-article-top-bar">
                   <img src="img/Arrow_Left.png" alt="freccia verso sinistra">
                   <span class="corriere-tv-blue-box-writing">
-                  <i>CORRIERE</i>TV
+                  <b><i>CORRIERE</i><span class="tv-color">TV</span></b>
                 </span>
                   <img src="img/Arrow_Right.png" alt="freccia verso destra">
                 </div>
@@ -501,7 +516,7 @@
               <div id="corriere-tv-right-second-article">
                 <div id="corriere-tv-right-second-article-top-bar">
                 <span class="corriere-tv-blue-box-writing">
-                <i>CORRIERE</i>TV
+                <b><i>CORRIERE</i><span class="tv-color">TV</span></b>
               </span>
                 </div>
 
