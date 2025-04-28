@@ -1,16 +1,29 @@
-/*
-*
+*, *::after, *::before
 {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-*/
+
+img
+{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+input, button, textarea
+{
+  font: inherit;
+}
 
 #upper-header
 {
   display: flex;
   justify-content: center;
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+  background-color: mediumblue;
 }
 
 .upper-header-container
@@ -22,6 +35,37 @@
 .upper-header-element
 {
   display: flex;
+  color: white;
+  font-size: 0.9em;
+}
+
+.sezioni
+{
+  margin-right: 1em;
+}
+
+.edizioni-locali
+{
+  margin-left: 1.5em;
+}
+
+#edizioni-locali-down-arrow
+{
+  margin-right: 1.5em;
+}
+
+.down-arrow
+{
+  width: 1em;
+  height: 1em;
+}
+
+button
+{
+  border: none;
+  background-color: transparent;
+  margin-right: 0.9em;
+  margin-left: 0.9em;
 }
 
 .upper-header-element-left-side
@@ -29,6 +73,14 @@
   display: flex;
   flex-basis: 333px;
   justify-content: left;
+  min-width: 270px;
+}
+
+#hamburger-menu-icon
+{
+  width: 1.3em;
+  height: 1.3em;
+  margin-right: 0.4em;
 }
 
 .meteo
@@ -36,6 +88,14 @@
   display: flex;
   flex-basis: 334px;
   justify-content: center;
+  min-width: 88px;
+}
+
+#meteo-image
+{
+  width: 1.5em;
+  height: 1.5em;
+  margin-left: 0.5em;
 }
 
 .upper-header-element-right-side
@@ -45,16 +105,25 @@
   justify-content: right;
 }
 
+#default-pfp
+{
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 0.7em;
+}
+
 #lower-header
 {
   display: flex;
   justify-content: center;
+  margin-top: 2em;
+  margin-bottom: 10em;
 }
 
 #page-title
 {
-  font-size: 2em;
-  font-weight: bolder;
+  font-size: 2.5em;
+  font-weight: 900;
 }
 
 #title-additional-info
@@ -65,7 +134,7 @@
 
 #date-time-update
 {
-  font-size: 0.5em;
+  font-size: 0.6em;
   display: flex;
   flex-basis: 50%;
 }
@@ -73,6 +142,7 @@
 #socials-buttons
 {
   display: flex;
+  justify-content: center;
   flex-basis: 50%;
   max-height: 20px;
 }
@@ -94,7 +164,7 @@ main
 #main-container
 {
   display: flex;
-  flex-basis: 900px;
+  flex-basis: 1000px;
   flex-direction: column;
 }
 
@@ -185,6 +255,7 @@ main
 #main-article-image
 {
   object-fit: fill;
+  margin-bottom: -40px;
 }
 
 #main-article-additional-info
@@ -201,7 +272,6 @@ main
 {
   display: flex;
   flex-direction: row;
-  margin-top: -100px;
 }
 
 #main-article-additional-info-left

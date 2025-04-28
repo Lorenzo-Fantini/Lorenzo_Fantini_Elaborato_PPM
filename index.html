@@ -22,14 +22,34 @@
     <div id="upper-header">
       <div class="upper-header-container">
         <div class="upper-header-element-left-side">
-          <menu class="upper-header-element sezioni">sezioni</menu>
-          <menu class="upper-header-element edizioni-locali">edizioni locali</menu>
-          <menu class="upper-header-element servizi">servizi</menu>
+          <div id="sezioni-container" class="flex-row-container">
+            <img src="img/Hamburger_Menu_Icon.png" alt="icona menù ad hamburger" id="hamburger-menu-icon">
+            <menu class="upper-header-element sezioni">
+              Sezioni
+            </menu>
+          </div>
+          <menu class="upper-header-element edizioni-locali">
+            Edizioni Locali
+          </menu>
+          <img src="img/Down_Arrow_Corriere.png" alt="freccia in giù" id="edizioni-locali-down-arrow"
+          class="down-arrow">
+          <menu class="upper-header-element servizi">
+            Servizi
+          </menu>
+          <img src="img/Down_Arrow_Corriere.png" alt="freccia in giù"  id="servizi-down-arrow" class="down-arrow">
         </div>
-        <div class="upper-header-element meteo">meteo</div>
+        <div class="upper-header-element meteo">
+          <span>Meteo: <b>Milano</b> 20°</span>
+          <img src="img/Meteo_Image.png" alt="immagine di una nuvola con dietro il sole" id="meteo-image">
+        </div>
         <div class="upper-header-element-right-side">
-          <button class="upper-header-element">abbonati</button>
-          <button class="upper-header-element">accedi</button>
+          <button class="upper-header-element">
+            ABBONATI
+          </button>
+          <button class="upper-header-element">
+            <img src="img/Accedi_Icon.png" alt="icona profilo" id="default-pfp">
+            Accedi
+          </button>
         </div>
       </div>
     </div>
@@ -50,16 +70,16 @@
           </div>
           <div id="socials-buttons">
             <a>
-              <img src="img/Facebook_Icon_Elaborato.png" alt="placeholder">
+              <img src="img/Facebook_Icon_Elaborato.png" alt="placeholder" title="link per Facebook">
             </a>
             <a>
-              <img src="img/Instagram_Icon_Elaborato.png" alt="placeholder">
+              <img src="img/Instagram_Icon_Elaborato.png" alt="placeholder" title="link per Instagram">
             </a>
             <a>
-              <img src="img/Twitter_Icon_Elaborato.png" alt="placeholder">
+              <img src="img/Twitter_Icon_Elaborato.png" alt="placeholder" title="link per Twitter">
             </a>
             <a>
-              <img src="img/Tiktok_Icon_Elaborato.png" alt="placeholder">
+              <img src="img/Tiktok_Icon_Elaborato.png" alt="placeholder" title="link per Tiktok">
             </a>
           </div>
         </div>
@@ -456,8 +476,8 @@
                 </div>
               </div>
             </div>
-
-            <div id="articles-container-right">
+            <!--id="articles-container-right"-->
+            <div  class="right-container">
               <div id="corriere-tv-right-first-article">
                 <div id="corriere-tv-right-first-article-top-bar">
                   <img src="img/Arrow_Left.png" alt="freccia verso sinistra">
