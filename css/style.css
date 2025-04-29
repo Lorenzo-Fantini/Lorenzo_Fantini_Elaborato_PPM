@@ -79,6 +79,11 @@ button
   margin-left: 0.9em;
 }
 
+.right-border
+{
+  border-right: 1px solid #e6e6e6;
+}
+
 .upper-header-element-left-side
 {
   display: flex;
@@ -311,18 +316,17 @@ main
 {
   color: #0a5678;
   margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  margin-bottom: 1em;
 }
 
 .paragraph-after-attribution
 {
-  margin-top: 0.5em;
-  margin-bottom: 1em;
+  color: #666;
 }
 
 .attribution
 {
-  color: #0a5678;
+  color: #48b8f1;
   font-style: italic;
 }
 
@@ -338,22 +342,6 @@ main
   height: 100%;
   max-height: 500px;
   margin-bottom: -4em;
-}
-
-#main-article-additional-info
-{
-  font-size: 0.8em;
-}
-
-#secondary-article-additional-info-list
-{
-  padding: 0 0 0 1em;
-}
-
-#main-article-additional-info
-{
-  display: flex;
-  flex-direction: row;
 }
 
 #main-article-additional-info-left
@@ -382,7 +370,55 @@ main
 
 #main-article-additional-info-list
 {
+  margin-top: 1em;
   padding-left: 0.9em;
+}
+
+.additional-info-font-size
+{
+  font-size: 0.8em;
+}
+
+#secondary-article-container
+{
+  margin-top: 1.2em;
+  border-top: 1px solid #e6e6e6;
+}
+
+#secondary-article-top-writing
+{
+  margin-top: 1em;
+  font-weight: bolder;
+  color: #7a7a7a;
+  font-size: 0.9em;
+  margin-bottom: 0.7em;
+}
+
+#secondary-article-title
+{
+  margin-bottom: 0.7em;
+}
+
+#secondary-article-additional-info-list
+{
+  padding: 0 0 0 1em;
+}
+
+#secondary-article-attribution
+{
+  margin-top: 1.4em;
+  margin-bottom: 1em;
+}
+
+#secondary-article-additional-info-list
+{
+  margin-top: 0.8em;
+}
+
+#additional-info-font-size
+{
+  display: flex;
+  flex-direction: row;
 }
 
 .articles-container

@@ -181,7 +181,7 @@
                 <img src="img/Cicero_Placeholder_Main_Article.png" alt="placeholder" id="main-article-image">
               </figure>
             </article>
-            <div id="main-article-additional-info">
+            <div class="additional-info-font-size flex-row-container">
               <div id="main-article-additional-info-left">
                 <div id="main-article-attribution">
                   <span class="attribution">
@@ -214,7 +214,7 @@
           </div>
 
           <div class="articles-container">
-            <div class="left-container">
+            <div class="left-container right-border">
               <div class="coupled-articles-container">
                 <div class="coupled-articles-left-article-container coupled-articles-article-container">
                 <span class="coupled-articles-top-writing">
@@ -250,7 +250,7 @@
                       <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder" class="coupled-articles-image">
                     </figure>
                     <div class="coupled-articles-image-comment-container">
-                      <p class="attribution attribution coupled-articles-text-font-size coupled-articles-attribution">
+                      <p class="attribution coupled-articles-text-font-size coupled-articles-attribution">
                         di Lorem Ipsum
                       </p>
                       <p class="coupled-articles-text-font-size">
@@ -262,30 +262,37 @@
               </div>
 
               <div id="secondary-article-container">
-              <span>
-                Lorem ipsum
-              </span>
+                <p id="secondary-article-top-writing">
+                  LOREM IPSUM
+                </p>
                 <article id="secondary-article">
-                  <h2>
+                  <h2 id="secondary-article-title">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
-                    Praesent venenatis velit lectus, vitae imperdiet nibh tempor vel. Sed rutrum mauris vel mi ullamcorper
-                    dictum.
+                    Praesent venenatis velit lectus, vitae imperdiet nibh tempor vel. Sed rutrum mauris vel mi
+                    ullamcorper dictum.
                   </h2>
                   <figure>
                     <img src="img/Cicero_Placeholder_Secondary_Article.png" alt="placeholder">
                   </figure>
                 </article>
-                <span>
-                <i>di Lorem ipsum dolor sit amet</i>
-              </span>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-                <ul id="secondary-article-additional-info-list">
-                  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <i>di Lorem ipsum</i></li>
-                  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <i>di Lorem ipsum</i></li>
-                  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <i>di Lorem ipsum</i></li>
-                </ul>
+                <div class="additional-info-font-size">
+                  <p class="attribution" id="secondary-article-attribution">
+                    di Lorem ipsum dolor sit amet
+                  </p>
+                  <p class="paragraph-after-attribution">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                  <nav>
+                    <ul id="secondary-article-additional-info-list">
+                      <li><span class="list-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                      <span class="attribution">di Lorem Ipsum</span></li>
+                      <li><span class="list-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                      <span class="attribution">di Lorem Ipsum</span></li>
+                      <li><span class="list-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                      <span class="attribution">di Lorem Ipsum</span></li>
+                    </ul>
+                  </nav>
+                </div>
               </div>
 
               <div class="generic-article-container">
@@ -1031,7 +1038,7 @@
               </div>
 
               <div>
-                <ul>
+                <ul>Ful
                   <li>
                     <figure>
                       <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
