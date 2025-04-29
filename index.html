@@ -87,6 +87,7 @@
     </div>
   </header>
 
+  <!--todo RIMUOVI TUTTI I TAG <i> E <b> E IMPOSTA QUELLE PROPRIETÀ CON IL CSS -->
   <div id="page-container">
     <main>
       <div id="main-container">
@@ -118,11 +119,11 @@
                 <h4 class="corriere-tv-box-title">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </h4>
-                <span class="corriere-tv-box-attribution"><i>di Lorem Ipsum</i></span>
+                <span class="corriere-tv-box-attribution">di Lorem Ipsum</span>
               </div>
             </article>
 
-            <article class="corriere-tv-box">
+            <article class="corriere-tv-box not-first">
               <figure class="corriere-tv-box-picture">
                 <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder" class="corriere-tv-box-img">
               </figure>
@@ -134,7 +135,7 @@
               </div>
             </article>
 
-            <article class="corriere-tv-box">
+            <article class="corriere-tv-box not-first">
               <figure class="corriere-tv-box-picture">
                 <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder" class="corriere-tv-box-img">
               </figure>
@@ -146,7 +147,7 @@
               </div>
             </article>
 
-            <article class="corriere-tv-box">
+            <article class="corriere-tv-box not-first">
               <figure class="corriere-tv-box-picture">
                 <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder" class="corriere-tv-box-img">
               </figure>
@@ -183,8 +184,8 @@
             <div id="main-article-additional-info">
               <div id="main-article-additional-info-left">
                 <div id="main-article-attribution">
-                  <span>
-                    <i>di Lorem ipsum dolor sit amet</i>
+                  <span class="attribution">
+                    di Lorem ipsum dolor sit amet
                   </span>
                 </div>
                 <p class="paragraph-after-attribution">
@@ -219,18 +220,18 @@
                 <span class="coupled-articles-top-writing">
                   LOREM IPSUM
                 </span>
-                  <h2>
+                  <h2 class="coupled-articles-title">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
                   </h2>
                   <div class="coupled-articles-image-and-comment-container">
-                    <figure>
-                      <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
+                    <figure class="coupled-articles-figure">
+                      <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder" class="coupled-articles-image">
                     </figure>
                     <div class="coupled-articles-image-comment-container">
-                    <span>
-                      di Lorem Ipsum
-                    </span>
-                      <p>
+                      <p class="attribution coupled-articles-text-font-size coupled-articles-attribution">
+                        di Lorem Ipsum
+                      </p>
+                      <p class="coupled-articles-text-font-size">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
                       </p>
                     </div>
@@ -241,18 +242,18 @@
                 <span class="coupled-articles-top-writing">
                   LOREM IPSUM
                 </span>
-                  <h2>
+                  <h2 class="coupled-articles-title">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
                   </h2>
                   <div class="coupled-articles-image-and-comment-container">
-                    <figure>
-                      <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
+                    <figure class="coupled-articles-figure">
+                      <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder" class="coupled-articles-image">
                     </figure>
                     <div class="coupled-articles-image-comment-container">
-                      <span>
+                      <p class="attribution attribution coupled-articles-text-font-size coupled-articles-attribution">
                         di Lorem Ipsum
-                      </span>
-                      <p>
+                      </p>
+                      <p class="coupled-articles-text-font-size">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
                       </p>
                     </div>
@@ -342,7 +343,7 @@
                   <h4>
                     Lorem ipsum dolor sit amet
                   </h4>
-                  <span>
+                  <span class="attribution">
                   di Lorem Ipsum
                 </span>
                 </div>
@@ -408,7 +409,7 @@
                         <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
                       </figure>
                       <div class="coupled-articles-image-comment-container">
-                    <span>
+                    <span class="attribution">
                       di Lorem Ipsum
                     </span>
                         <p>
@@ -431,7 +432,7 @@
                         <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder">
                       </figure>
                       <div class="coupled-articles-image-comment-container">
-                    <span>
+                    <span class="attribution">
                       di Lorem Ipsum
                     </span>
                         <p>
