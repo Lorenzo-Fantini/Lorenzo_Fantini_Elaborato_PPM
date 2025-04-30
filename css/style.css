@@ -23,9 +23,15 @@ ul
   color: #49b8f1;
 }
 
-.list-color
+.list-colour-and-font-weight
 {
   color: black;
+  font-weight: bold;
+}
+
+.figure-right-margin
+{
+  margin-right: 0.6em;
 }
 
 #upper-header
@@ -140,6 +146,7 @@ button
 {
   font-size: 2.5em;
   font-weight: 900;
+  font-style: italic;
 }
 
 #title-additional-info
@@ -232,6 +239,12 @@ main
   padding: 1em 0 1em 1em;
 }
 
+.corriere-tv-blue-box-writing
+{
+  font-style: italic;
+  font-weight: bold;
+}
+
 #corriere-tv-boxes-container
 {
   display: flex;
@@ -260,7 +273,7 @@ main
 {
   display: flex;
   flex-direction: column;
-  padding-left: 0.5em;
+  /* padding-left: 0.5em;*/
 }
 
 .corriere-tv-box-title
@@ -324,10 +337,20 @@ main
   color: #666;
 }
 
-.attribution
+.attribution-colour-and-font-style
 {
   color: #48b8f1;
   font-style: italic;
+}
+
+.attribution-font-size
+{
+  font-size: 0.8em;
+}
+
+.list-attribution-margin
+{
+  margin-left: 0.6em;
 }
 
 #main-article-figure
@@ -365,10 +388,11 @@ main
 {
   display: flex;
   justify-content: end;
+  font-style: italic;
   margin: 0 0 0 0;
 }
 
-#main-article-additional-info-list
+.additional-info-list-margin-and-padding
 {
   margin-top: 1em;
   padding-left: 0.9em;
@@ -383,6 +407,14 @@ main
 {
   margin-top: 1.2em;
   border-top: 1px solid #e6e6e6;
+}
+
+.top-writing-styling
+{
+  font-weight: bolder;
+  color: #7a7a7a;
+  font-size: 0.8em;
+  margin-bottom: 0.7em;
 }
 
 #secondary-article-top-writing
@@ -413,12 +445,6 @@ main
 #secondary-article-additional-info-list
 {
   margin-top: 0.8em;
-}
-
-#additional-info-font-size
-{
-  display: flex;
-  flex-direction: row;
 }
 
 .articles-container
@@ -532,21 +558,42 @@ main
   justify-content: center;
 }
 
+.generic-article-top-writing
+{
+  font-weight: bolder;
+  color: #7a7a7a;
+}
+
 .generic-article-placeholder
 {
-  width: 100%;
-  height: 100%;
+  width: 40em;
+  height: 15em;
 }
 
 .generic-article-container
 {
-  display: flex;
+  margin-top: 1em;
 }
 
-.generic-article-info-container
+.generic-article-title
+{
+  margin-bottom: 1em;
+}
+
+.generic-article-writing-container
 {
   display: flex;
   flex-direction: column;
+}
+
+.generic-article-attribution-margin
+{
+  margin-bottom: 0.8em;
+}
+
+.generic-article-paragraph-after-attribution-margin
+{
+  margin-bottom: 0.8em;
 }
 
 #frammenti-container
