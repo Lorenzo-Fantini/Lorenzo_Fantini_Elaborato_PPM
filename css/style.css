@@ -343,6 +343,11 @@ main
   color: #666;
 }
 
+.paragraph-after-attribution-font-size
+{
+  font-size: 0.9em;
+}
+
 .attribution-colour-and-font-style
 {
   color: #48b8f1;
@@ -558,9 +563,17 @@ main
   padding: 0.7em 0.7em 0.7em 0.7em;
 }
 
+#corriere-tv-right-second-article
+{
+  margin-top: 1.8em;
+  border-bottom: 1px solid #e6e6e6;
+}
+
 #corriere-tv-right-second-article-top-bar
 {
-  background-color: darkslateblue;
+  background-color: #095075;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
   display: flex;
   justify-content: center;
 }
@@ -819,7 +832,6 @@ main
   margin-top: 3em;
   padding-left: 0.8em;
   padding-right: 0.6em;
-  font-size: 0.8em;
 }
 
 .right-side-full-width-img
@@ -827,10 +839,45 @@ main
   width: 100%;
 }
 
+#corriere-tv-right-second-article-title
+{
+  font-size: 1.1em;
+  margin-bottom: 0.7em;
+}
+
+.corriere-tv-right-second-article-text-container
+{
+  padding: 1.5em 1.5em 1em 1.5em;
+}
+
 .editoriali-commenti-comment
 {
   display: flex;
   flex-direction: row;
+}
+
+.right-generic-article-container
+{
+  margin-top: 4em;
+  border-top: 1px solid #e6e6e6;
+  padding-top: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.generic-article-title
+{
+  margin-top: 0.5em;
+}
+
+.generic-right-article-top-writing
+{
+  margin-bottom: 1.5em;
+}
+
+.generic-article-space-before-attribution
+{
+  margin-bottom: 0.7em;
 }
 
 .secondary-section-title-container
