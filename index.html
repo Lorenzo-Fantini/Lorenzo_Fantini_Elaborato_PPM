@@ -18,6 +18,8 @@
 
 <body>
 
+  <!--todo RIMUOVI TUTTI I TAG <i> E <b> E IMPOSTA QUELLE PROPRIETÀ CON IL CSS-->
+  <!--todo TOGLI TUTTE LE IMMAGINI DAI TAG FIGURE-->
   <header>
     <div id="upper-header">
       <div class="upper-header-container">
@@ -56,17 +58,17 @@
 
     <div id="lower-header">
       <div id="lower-header-container">
-        <span id="page-title">
+        <p id="page-title">
           CORRIERE DELLA SERA
-        </span>
+        </p>
         <div id="title-additional-info">
           <div id="date-time-update">
             <time id="date-time" datetime="2025-4-21">
               Lunedì 21 aprile 2025
             </time>
-            <span>
+            <p>
             - Aggiornato alle 16:54
-            </span>
+            </p>
           </div>
           <div id="socials-buttons">
             <a>
@@ -87,7 +89,6 @@
     </div>
   </header>
 
-  <!--todo RIMUOVI TUTTI I TAG <i> E <b> E IMPOSTA QUELLE PROPRIETÀ CON IL CSS -->
   <div id="page-container">
     <main>
       <div id="main-container">
@@ -106,10 +107,11 @@
             </ul>
           </nav>
         </section>
+
         <section id="corriere-tv-boxes">
-        <span id="corriere-tv-writing">
-          <b><i>CORRIERE</i><span class="tv-color">TV</span></b>
-        </span>
+          <span id="corriere-tv-writing">
+            <b><i>CORRIERE</i><span class="tv-color">TV</span></b>
+          </span>
           <div id="corriere-tv-boxes-container">
             <article class="corriere-tv-box">
               <figure class="corriere-tv-box-picture figure-right-margin">
@@ -192,9 +194,9 @@
             <div class="additional-info-font-size flex-row-container">
               <div id="main-article-additional-info-left">
                 <div id="main-article-attribution">
-                  <span class="attribution-colour-and-font-style">
+                  <p class="attribution-colour-and-font-style">
                     di Lorem Ipsum, Dolor Sit, Amet Consectetur
-                  </span>
+                  </p>
                 </div>
                 <p class="paragraph-after-attribution">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
@@ -562,32 +564,37 @@
               </div>
             </div>
 
-            <div  class="right-container">
-              <div id="corriere-tv-right-first-article">
-                <div id="corriere-tv-right-first-article-top-bar">
+            <div class="right-container" id="main-articles-right-container">
+              <div class="flex-column-container" id="three-lines-corriere-tv-top-bar-two-dots-container">
+                <img src="img/Three_Horizontal_Lines.png" alt="tre linee orizzontali" class="three-horizontal-lines">
+                <div id="corriere-tv-right-first-top-bar">
                   <img src="img/Arrow_Left.png" alt="freccia verso sinistra">
-                  <span class="corriere-tv-blue-box-writing">
-                    CORRIERE<span class="tv-color">TV</span>
-                  </span>
+                  <p class="corriere-tv-blue-box-writing">
+                    CORRIERE<span class="tv-styling-right">TV</span>
+                  </p>
                   <img src="img/Arrow_Right.png" alt="freccia verso destra">
                 </div>
+                <img src="img/Two_Dots.png" alt="due puntini" id="two-dots-img">
+              </div>
 
+              <div id="corriere-tv-right-first-article">
                 <article>
-                  <img src="img/Cicero_Corriere_Tv_Right_Side_Main_Articles.png" alt="placeholder">
-                  <h2>
+                  <img src="img/Cicero_Corriere_Tv_Right_Side_Main_Articles.png" alt="placeholder"
+                  class="right-side-full-width-img">
+                  <h2 class="corriere-tv-right-article-title">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
                   </h2>
                 </article>
-                <p>
+                <p class="paragraph-after-attribution" id="corriere-tv-right-first-article-paragraph">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
               </div>
 
               <div id="corriere-tv-right-second-article">
                 <div id="corriere-tv-right-second-article-top-bar">
-                <span class="corriere-tv-blue-box-writing">
-                <b><i>CORRIERE</i><span class="tv-color">TV</span></b>
-              </span>
+                  <span class="corriere-tv-blue-box-writing">
+                    <b><i>CORRIERE</i><span class="tv-color">TV</span></b>
+                  </span>
                 </div>
 
                 <article>
