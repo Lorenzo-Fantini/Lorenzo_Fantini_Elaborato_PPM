@@ -603,7 +603,7 @@ main
   margin-top: 1.2em;
   padding-top: 1em;
   padding-bottom: 0.5em;
-  box-shadow: 0 2px 5px;
+  box-shadow: 0 2px 6px -3px black;
 }
 
 #frammenti-logo-container
@@ -710,7 +710,62 @@ main
 
 #four-articles-in-a-square
 {
-  display: flex;
+  margin-top: 1em;
+  padding: 1em 1em 1em 1em;
+  box-shadow: 0 2px 8px -4px black;
+}
+
+#four-articles-in-a-square-upper-articles
+{
+  margin-bottom: 1em;
+}
+
+#four-articles-in-a-square-lower-articles
+{
+  padding-top: 1em;
+  border-top: 1px solid #e6e6e6;
+}
+
+.four-articles-left-article-container
+{
+  border-right: 1px solid #e6e6e6;
+  padding-right: 0.3em;
+}
+
+.four-articles-right-article-container
+{
+  padding-left: 0.8em;
+}
+
+.four-articles-article-container
+{
+
+}
+
+.four-articles-article-title
+{
+  font-size: 1.3em;
+}
+
+.four-articles-figure
+{
+  margin-right: 0.5em;
+}
+
+.four-articles-img
+{
+  width: 27em;
+  height: 5.5em;
+}
+
+.four-articles-paragraph
+{
+  font-size: 0.8em;
+}
+
+.four-articles-attribution
+{
+  margin-bottom: 0.3em;
 }
 
 .pfp-border-radius
