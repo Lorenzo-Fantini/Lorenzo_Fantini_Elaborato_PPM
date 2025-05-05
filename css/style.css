@@ -946,6 +946,75 @@ main
   margin-top: 1.5em;
 }
 
+.three-columns-left-column
+{
+  margin-right: 0.7em;
+}
+
+.three-columns-central-column
+{
+  margin-left: 0.7em;
+  margin-right: 0.7em;
+}
+
+.three-columns-right-column
+{
+  margin-left: 0.7em;
+}
+
+#blog-e-rubriche
+{
+  margin-top: 3em;
+}
+
+.blog-rubriche-four-horizontal-lines
+{
+  width: 100%;
+  height: 0.8em;
+  margin-bottom: 0.5em;
+}
+
+.blog-rubriche-writing
+{
+  align-items: center;
+  border-bottom: 1px solid #e6e6e6;
+  margin-bottom: 1em;
+  padding-bottom: 0.5em;
+  font-weight: bold;
+}
+
+.blog-rubriche-container
+{
+  border-top: 1px solid #e6e6e6;
+  margin-bottom: 1em;
+  padding-top: 0.5em;
+}
+
+.blog-rubriche-title
+{
+  margin-bottom: 0.5em;
+}
+
+.blog-rubriche-text-container
+{
+  margin-left: 1em;
+}
+
+.blog-rubriche-pfp
+{
+  width: 4em;
+  height: 4em;
+}
+
+.blog-rubriche-cartoon-img
+{
+  width: 70%;
+  height: 90%;
+  padding: 1em 1em 1em 1em;
+  border: 1px solid #e6e6e6;
+  margin-bottom: 1em;
+}
+
 #blog-e-rubriche-cartoon-section
 {
   display: flex;
