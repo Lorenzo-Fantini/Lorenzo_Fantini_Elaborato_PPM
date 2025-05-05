@@ -1047,6 +1047,37 @@ main
   flex-basis: 50%;
 }
 
+.video-dalla-rete-top-writing
+{
+  font-weight: bold;
+  color: #49b8f1;
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 0.1em;
+  margin-bottom: 0.5em;
+}
+
+.video-container
+{
+  justify-content: space-between;
+}
+
+.video-dalla-rete-figure
+{
+  max-width: 15%;
+}
+
+.video-dalla-rete-img
+{
+  width: 100%;
+  height: 5em;
+  margin-bottom: 1.5em;
+}
+
+.video-dalla-rete-font-colour
+{
+  color: #666;
+}
+
 #i-blog-del-corriere
 {
   display: flex;
