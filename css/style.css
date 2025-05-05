@@ -1078,6 +1078,24 @@ main
   color: #666;
 }
 
+#garbage-section
+{
+  margin-top: 2em;
+  justify-content: space-between;
+}
+
+.garbage-element-top-writing
+{
+  border-bottom: 1px solid #e6e6e6;
+  margin-bottom: 0.5em;
+}
+
+.garbage-img
+{
+  width: 100%;
+  margin-bottom: 0.5em;
+}
+
 #i-blog-del-corriere
 {
   display: flex;
