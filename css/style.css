@@ -1040,6 +1040,21 @@ main
   flex-direction: row;
 }
 
+.space-between
+{
+  justify-content: space-between;
+}
+
+.space-evenly
+{
+  justify-content: space-evenly;
+}
+
+.align-items-center
+{
+  align-items: center;
+}
+
 .flex-column-container
 {
   display: flex;
@@ -1148,12 +1163,47 @@ main
 {
   display: flex;
   flex-direction: column;
+  border-top: 1px solid #e6e6e6;
+  margin-top: 1em;
+  padding-top: 1em;
+}
+
+#i-blog-del-corriere-title
+{
+  margin-bottom: 1em;
+}
+
+#i-blog-del-corriere-first-row
+{
+  margin-bottom: 1em;
+}
+
+.blog-title
+{
+  font-weight: bolder;
+  color: #7a7a7a;
+  font-size: 0.8em;
+  margin-bottom: 0.3em;
+}
+
+.i-blog-del-corriere-blog
+{
+  background-color: #fafafa;
+  box-shadow: 0 2px 6px -3px black;
+  padding: 1em 1em 1em 1em;
+  flex-basis: 23%;
 }
 
 #i-blog-del-corriere-title
 {
   display: flex;
   justify-content: center;
+}
+
+.blog-right-arrow
+{
+  width: 1em;
+  height: 1em;
 }
 
 footer
