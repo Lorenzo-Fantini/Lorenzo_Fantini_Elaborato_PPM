@@ -90,6 +90,11 @@ button
   border-right: 1px solid #e6e6e6;
 }
 
+.bottom-border
+{
+  border-bottom: 1px solid #e6e6e6;
+}
+
 .upper-header-element-left-side
 {
   display: flex;
@@ -1094,6 +1099,39 @@ main
 {
   width: 100%;
   margin-bottom: 0.5em;
+}
+
+#i-più-container
+{
+  margin-top: 1.5em;
+}
+
+#i-più-visti
+{
+  margin-right: 1em;
+}
+
+.i-più-top-writing
+{
+  padding: 1em 0 1em 1em;
+  background-color: #fafafa;
+  box-shadow: 0 2px 6px -3px black;
+}
+
+.i-più-margin-before-list
+{
+  margin-bottom: 1em;
+}
+
+.i-più-list-column
+{
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.i-più-visti-list-item-padding-bottom
+{
+  padding-bottom: 1em;
 }
 
 #i-blog-del-corriere
