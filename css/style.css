@@ -343,7 +343,7 @@ main
   margin-bottom: 1em;
 }
 
-.paragraph-after-attribution
+.paragraph-after-attribution-colour
 {
   color: #666;
 }
@@ -1129,9 +1129,19 @@ main
   padding-right: 2em;
 }
 
-.i-più-visti-list-item-padding-bottom
+.i-più-list-item-padding-bottom
 {
   padding-bottom: 1em;
+}
+
+#i-più-letti
+{
+  margin-left: 1em;
+}
+
+.i-più-letti-list-item-padding-bottom
+{
+  padding-bottom: 0.7em;
 }
 
 #i-blog-del-corriere
