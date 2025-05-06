@@ -187,6 +187,7 @@ main
 {
   display: flex;
   justify-content: center;
+  margin-bottom: 3em;
 }
 
 #main-container
@@ -1210,8 +1211,14 @@ footer
 {
   display: flex;
   justify-content: center;
-  max-width: 930px;
+  max-width: 1000px;
   width: 100%;
+}
+
+#corriere-della-sera-footer-title
+{
+  margin-bottom: 0.5em;
+  font-size: 0.9em;
 }
 
 #footer-container
@@ -1219,4 +1226,9 @@ footer
   display: flex;
   flex-direction: column;
   flex-basis: 100%;
+}
+
+.footer-font-size
+{
+  font-size: 0.7em;
 }
