@@ -1,8 +1,82 @@
+:root
+{
+  /* Colors */
+  --color-primary: #0a5678;
+  --color-secondary: #49b8f1;
+  --color-text-gray: #666;
+  --color-border: #e6e6e6;
+
+  /* Spacing */
+  --spacing-xs: 0.5em;
+  --spacing-sm: 0.8em;
+  --spacing-md: 1em;
+  --spacing-lg: 1.5em;
+
+  /* Font sizes */
+  --font-size-xs: 0.7em;
+  --font-size-sm: 0.8em;
+  --font-size-md: 1em;
+  --font-size-lg: 1.3em;
+
+  /* Common dimensions */
+  --container-width: 1000px;
+}
+
 *, *::after, *::before
 {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.flex
+{
+  display: flex;
+}
+
+.flex-row
+{
+  flex-direction: row;
+}
+
+.flex-column
+{
+  flex-direction: column;
+}
+
+.justify-center
+{
+  justify-content: center;
+}
+
+.justify-between
+{
+  justify-content: space-between;
+}
+
+.align-center
+{
+  align-items: center;
+}
+
+.top-border
+{
+  border-top: 1px solid var(--color-border);
+}
+
+.right-border
+{
+  border-right: 1px solid var(--color-border);
+}
+
+.bottom-border
+{
+  border-bottom: 1px solid var(--color-border);
+}
+
+.left-border
+{
+  border-left: 1px solid var(--color-border);
 }
 
 img
@@ -20,7 +94,7 @@ input, button, textarea
 ul
 {
   list-style-type: square;
-  color: #49b8f1;
+  color: var(--color-secondary);
 }
 
 .list-colour-and-font-weight
@@ -36,22 +110,22 @@ ul
 
 #upper-header
 {
-  display: flex;
   justify-content: center;
   padding-top: 0.6em;
   padding-bottom: 0.6em;
   background-color: #0a5678;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .upper-header-container
 {
-  display: flex;
   flex-basis: 1000px;
 }
 
 .upper-header-element
 {
-  display: flex;
   color: white;
   font-size: 0.9em;
 }
@@ -97,7 +171,6 @@ button
 
 .upper-header-element-left-side
 {
-  display: flex;
   flex-basis: 333px;
   justify-content: left;
   min-width: 270px;
@@ -112,10 +185,10 @@ button
 
 .meteo
 {
-  display: flex;
   flex-basis: 334px;
   justify-content: center;
   min-width: 88px;
+  font-weight: bold;
 }
 
 #meteo-image
@@ -127,7 +200,6 @@ button
 
 .upper-header-element-right-side
 {
-  display: flex;
   flex-basis: 333px;
   justify-content: right;
 }
@@ -141,9 +213,8 @@ button
 
 #lower-header
 {
-  display: flex;
   justify-content: center;
-  margin-top: 2em;
+  margin-top: 5em;
   margin-bottom: 10em;
 }
 
@@ -154,22 +225,14 @@ button
   font-style: italic;
 }
 
-#title-additional-info
-{
-  display: flex;
-  flex-direction: row;
-}
-
 #date-time-update
 {
   font-size: 0.6em;
-  display: flex;
   flex-basis: 50%;
 }
 
 #socials-buttons
 {
-  display: flex;
   justify-content: center;
   flex-basis: 50%;
   max-height: 20px;
@@ -177,72 +240,66 @@ button
 
 #page-container
 {
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 main
 {
-  display: flex;
   justify-content: center;
   margin-bottom: 3em;
 }
 
 #main-container
 {
-  display: flex;
   flex-basis: 1000px;
   flex-direction: column;
 }
 
+/*todo metti nell'html top-border*/
 #temi-caldi
 {
   border-top: 1px solid #e6e6e6;
-  display: flex;
   flex-basis: 100%;
   padding-top: 1em;
 }
 
 #temi-caldi-caption
 {
-  display: flex;
   flex-basis: 15%;
 }
 
 #temi-caldi-list-container
 {
-  display: flex;
   flex-basis: 85%;
 }
 
 #temi-caldi-list
 {
   list-style-type: none;
-  display: flex;
-  flex-direction: row;
   flex-basis: 100%;
   justify-content: space-evenly;
   color: #53bbf1;
 }
 
-.tv-color
+.tv-boxes-tv-writing-styling
 {
   color: #29aebf;
+  font-style: normal;
 }
 
+/*todo metti nell'html top-border*/
 #corriere-tv-boxes
 {
   border-top: 1px solid #e6e6e6;
-  display: flex;
-  flex-direction: column;
   margin-top: 1em;
 }
 
 #corriere-tv-writing
 {
   padding: 1em 0 1em 1em;
+  font-weight: bold;
+  font-style: italic;
 }
 
 .corriere-tv-blue-box-writing
@@ -258,16 +315,9 @@ main
   color: #c1d3dc;
 }
 
-#corriere-tv-boxes-container
-{
-  display: flex;
-  flex-direction: row;
-}
-
+/*todo fei per le tv box come hai fatto per i blog del corriere*/
 .corriere-tv-box
 {
-  display: flex;
-  flex-direction: row;
   max-width: 300px;
 }
 
@@ -280,13 +330,6 @@ main
 {
   width: 24em;
   height: 5em;
-}
-
-.corriere-tv-box-text-container
-{
-  display: flex;
-  flex-direction: column;
-  /* padding-left: 0.5em;*/
 }
 
 .corriere-tv-box-title
@@ -302,14 +345,8 @@ main
   font-style: italic;
 }
 
-#update-badge-container
-{
-  display: flex;
-}
-
 #update-badge
 {
-  display: flex;
   align-items: center;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -386,24 +423,19 @@ main
 
 #main-article-additional-info-left
 {
-  display: flex;
-  flex-direction: column;
   flex-basis: 70%;
   background-color: white;
 }
 
 #main-article-additional-info-right
 {
-  display: flex;
   flex-basis: 30%;
-  flex-direction: column;
   align-items: end;
   justify-content: end;
 }
 
 .main-article-additional-info-right-paragraph
 {
-  display: flex;
   justify-content: end;
   font-style: italic;
   margin: 0 0 0 0;
@@ -420,6 +452,7 @@ main
   font-size: 0.8em;
 }
 
+/*todo metti nell'html top-border*/
 #secondary-article-container
 {
   margin-top: 1.2em;
@@ -464,46 +497,31 @@ main
   margin-top: 0.8em;
 }
 
-.articles-container
-{
-  display: flex;
-  flex-direction: row;
-}
-
 .left-container
 {
-  display: flex;
-  flex-direction: column;
   flex-basis: 70%;
   padding-right: 1.1em;
 }
 
 .right-container
 {
-  display: flex;
-  flex-direction: column;
   flex-basis: 30%;
 }
 
+/*todo metti nell'html top-border*/
 .coupled-articles-container
 {
-  display: flex;
-  flex-direction: row;
   padding-top: 1em;
   border-top: 1px solid #e6e6e6;
 }
 
 .coupled-articles-article-container
 {
-  display: flex;
-  flex-direction: column;
   flex-basis: 50%;
 }
 
 .coupled-articles-image-and-comment-container
 {
-  display: flex;
-  flex-direction: row;
   margin-top: 0.7em;
 }
 
@@ -554,8 +572,6 @@ main
 
 #corriere-tv-right-first-article
 {
-  display: flex;
-  flex-direction: column;
   align-items: start;
   width: 100%;
 }
@@ -563,7 +579,6 @@ main
 #corriere-tv-right-first-top-bar
 {
   background-color: #095075;
-  display: flex;
   justify-content: space-between;
   width: 100%;
   padding: 0.7em 0.7em 0.7em 0.7em;
@@ -580,7 +595,6 @@ main
   background-color: #095075;
   padding-top: 0.7em;
   padding-bottom: 0.7em;
-  display: flex;
   justify-content: center;
 }
 
@@ -624,8 +638,6 @@ main
 
 #frammenti-container
 {
-  display: flex;
-  flex-direction: row;
   margin-top: 1.2em;
   padding-top: 1em;
   padding-bottom: 0.5em;
@@ -653,8 +665,6 @@ main
 
 #frammenti-logo-pfp-and-article-container
 {
-  display: flex;
-  flex-direction: row;
   margin-right: 1em;
 }
 
@@ -670,7 +680,6 @@ main
 
 #frammenti-hourglass-figure
 {
-  display: flex;
   object-fit: fill;
   flex-basis: 15%;
   justify-content: start;
@@ -683,6 +692,7 @@ main
   max-height: 80%;
 }
 
+/*todo metti nell'html top-border*/
 #three-articles-top-top-writing-bar-container
 {
   align-items: center;
@@ -728,12 +738,6 @@ main
   margin-bottom: 1em;
 }
 
-.three-columns-container
-{
-  display: flex;
-  flex-direction: row;
-}
-
 #four-articles-in-a-square
 {
   margin-top: 1em;
@@ -746,6 +750,7 @@ main
   margin-bottom: 1em;
 }
 
+/*todo metti nell'html top-border*/
 #four-articles-in-a-square-lower-articles
 {
   padding-top: 1em;
@@ -866,8 +871,6 @@ main
 
 .editoriali-commenti-comment
 {
-  display: flex;
-  flex-direction: row;
   margin-top: 1em;
 }
 
@@ -903,6 +906,7 @@ main
   height: 2em;
 }
 
+/*todo metti nell'html top-border*/
 .right-generic-article-container
 {
   margin-top: 4em;
@@ -929,8 +933,6 @@ main
 
 .secondary-section-title-container
 {
-  display: flex;
-  flex-direction: row;
   justify-content: center;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -989,6 +991,7 @@ main
   font-weight: bold;
 }
 
+/*todo metti nell'html top-border*/
 .blog-rubriche-container
 {
   border-top: 1px solid #e6e6e6;
@@ -1023,22 +1026,12 @@ main
 
 #blog-e-rubriche-cartoon-section
 {
-  display: flex;
-  flex-direction: column;
   align-items: center;
 }
 
 .three-columns-column
 {
-  display: flex;
-  flex-direction: column;
   flex-basis: 33%;
-}
-
-.flex-row-container
-{
-  display: flex;
-  flex-direction: row;
 }
 
 .space-between
@@ -1051,20 +1044,14 @@ main
   justify-content: space-evenly;
 }
 
+/*todo sostituiscilo con align-center*/
 .align-items-center
 {
   align-items: center;
 }
 
-.flex-column-container
-{
-  display: flex;
-  flex-direction: column;
-}
-
 .half-container
 {
-  display: flex;
   flex-basis: 50%;
 }
 
@@ -1160,10 +1147,9 @@ main
   padding-bottom: 0.7em;
 }
 
+/*todo metti nell'html top-border*/
 #i-blog-del-corriere
 {
-  display: flex;
-  flex-direction: column;
   border-top: 1px solid #e6e6e6;
   margin-top: 1em;
   padding-top: 1em;
@@ -1209,7 +1195,6 @@ main
 
 footer
 {
-  display: flex;
   justify-content: center;
   max-width: 1000px;
   width: 100%;
@@ -1223,8 +1208,6 @@ footer
 
 #footer-container
 {
-  display: flex;
-  flex-direction: column;
   flex-basis: 100%;
 }
 
