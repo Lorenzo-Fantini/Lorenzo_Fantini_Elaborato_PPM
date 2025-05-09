@@ -79,6 +79,11 @@
   border-left: 1px solid var(--color-border);
 }
 
+.box-shadow
+{
+  box-shadow: 0 2px 8px -4px black;
+}
+
 img
 {
   display: block;
@@ -621,7 +626,6 @@ main
   margin-top: 1.2em;
   padding-top: 1em;
   padding-bottom: 0.5em;
-  box-shadow: 0 2px 6px -3px black;
 }
 
 #frammenti-logo-container
@@ -720,7 +724,6 @@ main
 {
   margin-top: 1em;
   padding: 1em 1em 1em 1em;
-  box-shadow: 0 2px 8px -4px black;
 }
 
 #four-articles-in-a-square-upper-articles
@@ -835,7 +838,6 @@ main
   margin-top: 1.5em;
   margin-bottom: 1.5em;
   padding-bottom: 1em;
-  box-shadow: 0 2px 5px -1px black;
 }
 
 .editoriali-commenti-comment
@@ -1079,7 +1081,6 @@ main
 {
   padding: 1em 0 1em 1em;
   background-color: #fafafa;
-  box-shadow: 0 2px 6px -3px black;
 }
 
 .i-più-margin-before-list
@@ -1135,7 +1136,6 @@ main
 .i-blog-del-corriere-blog
 {
   background-color: #fafafa;
-  box-shadow: 0 2px 6px -3px black;
   padding: 1em 1em 1em 1em;
   flex-basis: 23%;
 }
