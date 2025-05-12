@@ -21,7 +21,7 @@
   <header>
     <nav class="flex" id="upper-header">
       <div class="upper-header-container flex flex-row">
-        <div class="upper-header-element-left-side flex">
+        <div class="upper-header-element-left-side disappearing-element-small flex">
           <div class="flex flex-row" id="sezioni-container">
             <img src="img/Hamburger_Menu_Icon.png" alt="icona menù ad hamburger" id="hamburger-menu-icon">
             <nav class="upper-header-element sezioni flex">
@@ -38,16 +38,16 @@
           </nav>
           <img src="img/Down_Arrow_Corriere.png" alt="freccia in giù"  id="servizi-down-arrow" class="down-arrow">
         </div>
-        <div class="upper-header-element meteo flex">
+        <div class="upper-header-element disappearing-element-small meteo flex">
           <span>Meteo: Milano 20°</span>
           <img src="img/Meteo_Image.png" alt="immagine di una nuvola con dietro il sole" id="meteo-image">
         </div>
         <div class="upper-header-element-right-side flex">
-          <button class="upper-header-element flex">
+          <button class="upper-header-element disappearing-element-small flex">
             ABBONATI
           </button>
-          <button class="upper-header-element flex">
-            <img src="img/Accedi_Icon.png" alt="icona profilo" id="default-pfp">
+          <button class="upper-header-element flex" id="accedi-button">
+            <img src="img/Accedi_Icon.png" alt="icona profilo" class="disappearing-element-small" id="default-pfp">
             Accedi
           </button>
         </div>
@@ -56,19 +56,19 @@
 
     <div class="flex" id="lower-header">
       <div id="lower-header-container">
-        <p id="page-title">
+        <h1 id="page-title">
           CORRIERE DELLA SERA
-        </p>
+        </h1>
         <div class="flex flex-row">
           <div class="flex" id="date-time-update">
-            <time id="date-time" datetime="2025-4-21">
-              Lunedì 21 aprile 2025
+            <time class="disappearing-element-small" id="date-time" datetime="2025-4-21">
+              Lunedì 21 aprile 2025 -
             </time>
             <p>
-            - Aggiornato alle 16:54
+            Aggiornato alle 16:54
             </p>
           </div>
-          <div class="flex" id="socials-buttons">
+          <div class="flex disappearing-element-small" id="socials-buttons">
             <a aria-label="link per Facebook">
               <img src="img/Facebook_Icon_Elaborato.png" alt="placeholder" title="link per Facebook">
             </a>
@@ -89,7 +89,7 @@
 
   <div class="flex flex-column" id="page-container">
     <main class="flex">
-      <div class="flex" id="main-container">
+      <div class="flex flex-column" id="main-container">
         <section class="flex top-border" id="temi-caldi">
           <span class="flex" id="temi-caldi-caption">Temi caldi di oggi: </span>
           <nav class="flex" id="temi-caldi-list-container">
@@ -98,15 +98,15 @@
               <li>TEMA 2</li>
               <li>TEMA 3</li>
               <li>TEMA 4</li>
-              <li>TEMA 5</li>
-              <li>TEMA 6</li>
-              <li>TEMA 7</li>
-              <li>TEMA 8</li>
+              <li class="disappearing-element-small">TEMA 5</li>
+              <li class="disappearing-element-small">TEMA 6</li>
+              <li class="disappearing-element-small">TEMA 7</li>
+              <li class="disappearing-element-small">TEMA 8</li>
             </ul>
           </nav>
         </section>
 
-        <section class="flex flex-column top-border" id="corriere-tv-boxes">
+        <section class="flex flex-column top-border disappearing-element-small" id="corriere-tv-boxes">
           <span id="corriere-tv-writing">
             CORRIERE<span class="tv-boxes-tv-writing-styling">TV</span>
           </span>
@@ -225,13 +225,13 @@
           </div>
 
           <div class="flex flex-row">
-            <div class="flex flex-column left-container right-border">
-              <div class="flex flex-row top-border coupled-articles-container">
+            <div class="flex flex-column left-container">
+              <div class="flex top-border coupled-articles-container" id="coupled-articles-container">
                 <div class="flex flex-column right-border coupled-articles-left-article-container
                 coupled-articles-article-container">
-                <span class="top-writing-styling">
-                  LOREM IPSUM
-                </span>
+                  <span class="top-writing-styling">
+                    LOREM IPSUM
+                  </span>
                   <h2 class="coupled-articles-title">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
                   </h2>
@@ -286,9 +286,11 @@
                     Praesent venenatis velit lectus, vitae imperdiet nibh tempor vel. Sed rutrum mauris vel mi
                     ullamcorper dictum.
                   </h2>
-                  <figure>
-                    <img src="img/Cicero_Placeholder_Secondary_Article.png" alt="placeholder">
+                  <figure class="margin-0-0-0-0">
+
                   </figure>
+                  <img src="img/Cicero_Placeholder_Secondary_Article.png" alt="placeholder"
+                       id="secondary-article-image">
                 </article>
                 <div class="additional-info-font-size">
                   <p class="attribution-colour-and-font-style" id="secondary-article-attribution">
@@ -318,7 +320,7 @@
                   <figure class="figure-right-margin">
                     <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder" class="generic-article-placeholder">
                   </figure>
-                  <div class="generic-article-writing-container">
+                  <div class="flex flex-column">
                     <p class="top-writing-styling">
                       LOREM IPSUM
                     </p>
@@ -347,7 +349,7 @@
                   <figure class="figure-right-margin">
                     <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder" class="generic-article-placeholder">
                   </figure>
-                  <div class="generic-article-writing-container">
+                  <div class="flex flex-column">
                     <p class="top-writing-styling">
                       LOREM IPSUM
                     </p>
@@ -373,19 +375,24 @@
 
               <div class="flex flex-row box-shadow" id="frammenti-container">
                 <div class="flex flex-row" id="frammenti-logo-pfp-and-article-container">
-                  <div class="flex flex-column" id="frammenti-logo-container">
-                    <p id="frammenti-writing">
-                      Frammenti
-                    </p>
-                    <figure id="frammenti-writing-underlying-lines">
-                      <img src="img/Four_Horizontal_Lines.png" alt="quattro linee orizzontali"
-                      id="frammenti-writing-underlying-lines-img">
+                  <div class="flex flex-row" id="frammenti-logo-container">
+                    <div class="flex flex-column">
+                      <p id="frammenti-writing">
+                        Frammenti
+                      </p>
+
+                      <figure id="frammenti-writing-underlying-lines">
+                        <img src="img/Four_Horizontal_Lines.png" alt="quattro linee orizzontali"
+                        id="frammenti-writing-underlying-lines-img">
+                      </figure>
+                    </div>
+
+                    <figure id="frammenti-pfp-figure">
+                      <img src="img/Cicero_Placeholder_Square.png" alt="placeholder" class="pfp-border-radius"
+                      id="frammenti-pfp">
                     </figure>
                   </div>
-                  <figure id="frammenti-pfp-figure">
-                    <img src="img/Cicero_Placeholder_Square.png" alt="placeholder" class="pfp-border-radius"
-                    id="frammenti-pfp">
-                  </figure>
+
                   <div id="frammenti-title-and-attribution">
                     <h3 id="frammenti-article-title">
                       Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -396,7 +403,8 @@
                   </div>
                 </div>
                 <figure class="flex" id="frammenti-hourglass-figure">
-                  <img src="img/Hourglass.png" alt="hourglass" id="frammenti-hourglass-img">
+                  <img src="img/Hourglass.png" alt="hourglass" class="disappearing-element-small"
+                  id="frammenti-hourglass-img">
                 </figure>
               </div>
 
@@ -706,7 +714,7 @@
                   <figure class="figure-right-margin">
                     <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder" class="generic-article-placeholder">
                   </figure>
-                  <div class="generic-article-writing-container">
+                  <div class="flex flex-column">
                     <p class="top-writing-styling">
                       LOREM IPSUM
                     </p>
@@ -733,9 +741,9 @@
               <div class="flex flex-row top-border coupled-articles-container extra-news-coupled-articles-container">
                 <div class="flex flex-column right-border coupled-articles-left-article-container
                 coupled-articles-article-container">
-                <span class="top-writing-styling">
-                  LOREM IPSUM
-                </span>
+                  <span class="top-writing-styling">
+                    LOREM IPSUM
+                  </span>
                   <h2 class="coupled-articles-title">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
                   </h2>
@@ -815,7 +823,7 @@
                   <figure class="figure-right-margin">
                     <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder" class="generic-article-placeholder">
                   </figure>
-                  <div class="generic-article-writing-container">
+                  <div class="flex flex-column">
                     <p class="top-writing-styling">
                       LOREM IPSUM
                     </p>
@@ -909,7 +917,7 @@
           </div>
         </section>
 
-        <section id="blog-e-rubriche">
+        <section class="disappearing-element-small" id="blog-e-rubriche">
           <img src="img/Four_Horizontal_Lines.png" alt="quattro linee orizzontali"
           class="blog-rubriche-four-horizontal-lines">
 
@@ -1061,7 +1069,7 @@
           </div>
         </section>
 
-        <section id="video-dalla-rete">
+        <section class="disappearing-element-small" id="video-dalla-rete">
           <p class="attribution-font-size bottom-border video-dalla-rete-top-writing">
             I VIDEO DALLA RETE
           </p>
@@ -1111,7 +1119,7 @@
           </div>
         </section>
 
-        <section id="garbage-section" class="flex flex-row">
+        <section class="flex flex-row disappearing-element-small" id="garbage-section">
           <div class="garbage-element video-dalla-rete-figure">
             <p class="bottom-border garbage-element-top-writing">
               LOREM IPSUM 1
@@ -1178,7 +1186,7 @@
           </div>
         </section>
 
-        <div id="i-più-container" class="flex flex-row">
+        <div id="i-più-container" class="flex flex-row disappearing-element-small">
           <section id="i-più-visti" class="half-container flex flex-column">
             <p class="box-shadow i-più-top-writing i-più-margin-before-list">
               I PIÙ VISTI
@@ -1233,8 +1241,8 @@
             </div>
           </section>
 
-          <section id="i-più-letti" class="half-container flex flex-column">
-            <p class="i-più-top-writing i-più-margin-before-list">
+          <section class="half-container flex flex-column" id="i-più-letti">
+            <p class="i-più-top-writing i-più-margin-before-list box-shadow">
               I PIÙ LETTI
             </p>
 
@@ -1322,8 +1330,8 @@
           </section>
         </div>
 
-        <section class="flex flex-column top-border" id="i-blog-del-corriere">
-          <p class="paragraph-after-attribution-colour" id="i-blog-del-corriere-title">
+        <section class="flex flex-column top-border disappearing-element-small" id="i-blog-del-corriere">
+          <p class="flex paragraph-after-attribution-colour" id="i-blog-del-corriere-title">
             I BLOG DEL CORRIERE
           </p>
 
