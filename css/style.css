@@ -732,33 +732,53 @@ main
   flex-basis: 30%;
 }
 
-.coupled-articles-container
+#coupled-articles-container
 {
-  border-top: 1px solid #e6e6e6;
   padding-top: 1em;
+  border-top: 1px solid #e6e6e6;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 1fr;
+  grid-template-areas: "o t";
+}
+
+#coupled-articles-article-one
+{
+  grid-area: o;
+}
+
+#coupled-articles-article-two
+{
+  grid-area: t;
 }
 
 .coupled-articles-article-container
 {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 50%;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1.5em 1fr 0.5em 1.2em 0.5fr;
+  grid-template-areas:
+    "w w"
+    "t t"
+    "p p"
+    "i a"
+    "i e";
 }
 
-.coupled-articles-image-and-comment-container
+.coupled-articles-top-writing
 {
-  margin-top: 0.7em;
+  grid-area: w;
 }
 
-.coupled-articles-left-article-container
+.coupled-articles-title
 {
-  border-right: 1px solid #e6e6e6;
-  padding-right: 0.6em;
+  grid-area: t;
 }
 
-.coupled-articles-right-article-container
+.coupled-articles-image
 {
-  padding-left: 0.9em;
+  grid-area: i;
+  width: 30em;
+  height: 6em;
+  padding-right: 1em;
 }
 
 .coupled-articles-top-writing
@@ -793,8 +813,6 @@ main
 .coupled-articles-text-font-size
 {
   font-size: 0.8em;
-
-
 }
 
 #corriere-tv-right-first-article
