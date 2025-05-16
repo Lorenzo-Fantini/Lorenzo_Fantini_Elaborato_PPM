@@ -732,10 +732,14 @@ main
   flex-basis: 30%;
 }
 
-#coupled-articles-container
+.coupled-articles-container
 {
   padding-top: 1em;
   border-top: 1px solid #e6e6e6;
+}
+
+#coupled-articles-container
+{
   grid-template-columns: 50% 50%;
   grid-template-rows: 1fr;
   grid-template-areas: "o t";
@@ -781,6 +785,32 @@ main
   padding-right: 1em;
 }
 
+.coupled-articles-attribution
+{
+  grid-area: a;
+}
+
+.coupled-articles-extra-info
+{
+  grid-area: e;
+}
+
+.coupled-articles-image-and-comment-container
+{
+  margin-top: 0.7em;
+}
+
+.coupled-articles-left-article-container
+{
+  border-right: 1px solid #e6e6e6;
+  padding-right: 0.6em;
+}
+
+.coupled-articles-right-article-container
+{
+  padding-left: 0.9em;
+}
+
 .coupled-articles-top-writing
 {
   font-weight: bolder;
@@ -797,12 +827,6 @@ main
 .coupled-articles-figure
 {
   margin-right: 0.7em;
-}
-
-.coupled-articles-image
-{
-  width: 30em;
-  height: 6em;
 }
 
 .coupled-articles-attribution
@@ -1589,22 +1613,76 @@ footer
     flex-basis: 100%;
   }
 
+  .coupled-articles-container
+  {
+    padding-top: 1em;
+    border-top: none;
+  }
+
   #coupled-articles-container
   {
-    flex-direction: column;
+    grid-template-columns: auto;
+    grid-template-rows: 50% 50%;
+    grid-template-areas:
+      "o"
+      "t";
+  }
+
+  #coupled-articles-article-one
+  {
+    grid-area: o;
+  }
+
+  #coupled-articles-article-two
+  {
+    grid-area: t;
   }
 
   .coupled-articles-article-container
   {
-    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1.5em 1fr 0.5em 1.2em 0.5em;
+    grid-template-areas:
+    "i w"
+    "i t"
+    "i p"
+    "i a"
+    "i e";
+  }
 
+  .coupled-articles-top-writing
+  {
+    grid-area: w;
+  }
+
+  .coupled-articles-title
+  {
+    grid-area: t;
+    font-size: 1em;
+  }
+
+  .coupled-articles-image
+  {
+    grid-area: i;
+    width: 30em;
+    height: 6em;
+    padding-right: 1em;
+  }
+
+  .coupled-articles-attribution
+  {
+    grid-area: a;
+  }
+
+  .coupled-articles-extra-info
+  {
+    grid-area: e;
   }
 
   .coupled-articles-left-article-container
   {
     border-right: none;
     padding-right: 0;
-    margin-bottom: 1.5em;
   }
 
   .coupled-articles-right-article-container
