@@ -30,6 +30,11 @@
   box-sizing: border-box;
 }
 
+.grid
+{
+  display: grid;
+}
+
 .flex
 {
   display: flex;
@@ -729,11 +734,14 @@ main
 
 .coupled-articles-container
 {
+  border-top: 1px solid #e6e6e6;
   padding-top: 1em;
 }
 
 .coupled-articles-article-container
 {
+  display: flex;
+  flex-direction: column;
   flex-basis: 50%;
 }
 
@@ -744,6 +752,7 @@ main
 
 .coupled-articles-left-article-container
 {
+  border-right: 1px solid #e6e6e6;
   padding-right: 0.6em;
 }
 
@@ -928,6 +937,7 @@ main
 
 #three-articles-container
 {
+  flex-direction: row;
   background-color: #f2f6f8;
 }
 
@@ -953,16 +963,30 @@ main
 {
   margin-top: 1em;
   padding: 1em 1em 1em 1em;
+  box-shadow: 0 2px 8px -4px black;
 }
 
 #four-articles-in-a-square-upper-articles
 {
+  flex-direction: row;
   margin-bottom: 1em;
+}
+
+#four-articles-in-a-square-upper-articles-left-article-container
+{
+  border-right: 1px solid #e6e6e6;
 }
 
 #four-articles-in-a-square-lower-articles
 {
+  border-top: 1px solid #e6e6e6;
+  flex-direction: row;
   padding-top: 1em;
+}
+
+#four-articles-in-a-square-lower-articles-left-article-container
+{
+  border-right: 1px solid #e6e6e6;
 }
 
 .four-articles-left-article-container
@@ -1148,6 +1172,7 @@ main
 
 .extra-news-coupled-articles-container
 {
+  flex-direction: row;
   margin-top: 1.5em;
 }
 
@@ -1403,6 +1428,7 @@ footer
   font-size: 0.7em;
 }
 
+
 @media screen and (min-width: 831px)
 {
   #coupled-articles-container
@@ -1427,6 +1453,12 @@ footer
 
 @media screen and (max-width: 830px)
 {
+  .disappearing-element-large
+  {
+    display: none;
+  }
+
+
   body
   {
     font-size: 0.9em;
@@ -1466,6 +1498,72 @@ footer
 
 @media screen and (max-width: 500px)
 {
+  #upper-header
+  {
+    position: relative;
+    border-bottom: 2px solid white;
+  }
+
+  #page-title
+  {
+    font-size: 1.5em;
+    margin-left: 1em;
+  }
+
+  #title-hamburger-menu-icon
+  {
+    width: 2em;
+    height: 2em;
+  }
+
+  .upper-header-element-right-side
+  {
+    flex-basis: 100%;
+  }
+
+  #lower-header
+  {
+    background-color: #0a5678;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  #date-time-update
+  {
+    justify-content: center;
+    flex-basis: 100%;
+    margin-bottom: 1.5em;
+  }
+
+  body
+  {
+    font-size: 0.9em;
+  }
+
+  main
+  {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  #temi-caldi
+  {
+    padding-top: 0;
+    border-top: none;
+  }
+
+  #temi-caldi-list-container
+  {
+    flex-basis: 100%;
+    background-color: #0a5678;
+  }
+
+  #temi-caldi-list
+  {
+    color: white;
+  }
+
   #main-article-additional-info-left
   {
     flex-basis: 100%;
@@ -1474,6 +1572,24 @@ footer
   #coupled-articles-container
   {
     flex-direction: column;
+  }
+
+  .coupled-articles-article-container
+  {
+    display:grid;
+
+  }
+
+  .coupled-articles-left-article-container
+  {
+    border-right: none;
+    padding-right: 0;
+    margin-bottom: 1.5em;
+  }
+
+  .coupled-articles-right-article-container
+  {
+    padding-left: 0;
   }
 
   #frammenti-logo-pfp-and-article-container
@@ -1496,23 +1612,56 @@ footer
     margin-bottom: 0.1em;
   }
 
-  body
+  #three-articles-container
   {
-    font-size: 0.9em;
+    flex-direction: column;
+    background-color: #f2f6f8;
+  }
+
+  #four-articles-in-a-square
+  {
+    margin-top: 1em;
+    padding: 0 0 0 0;
+    box-shadow: none;
+  }
+
+  #four-articles-in-a-square-upper-articles
+  {
+    flex-direction: column;
+    margin-bottom: 1em;
+  }
+
+  #four-articles-in-a-square-upper-articles-left-article-container
+  {
+    border-right: none;
+  }
+
+  .four-articles-right-article-container
+  {
+    margin-top: 1em;
+    padding-left: 0;
+  }
+
+  #four-articles-in-a-square-lower-articles
+  {
+    border-top: none;
+    flex-direction: column;
+    padding-top: 0;
+  }
+
+  #four-articles-in-a-square-lower-articles-left-article-container
+  {
+    border-right: none;
+  }
+
+  .extra-news-coupled-articles-container
+  {
+    flex-direction: column;
+    margin-top: 1.5em;
   }
 
   .disappearing-element-small
   {
     display: none;
-  }
-
-  #upper-header
-  {
-    position: fixed;
-  }
-
-  .upper-header-element-right-side
-  {
-    flex-basis: 100%;
   }
 }

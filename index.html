@@ -56,9 +56,13 @@
 
     <div class="flex" id="lower-header">
       <div id="lower-header-container">
-        <h1 id="page-title">
-          CORRIERE DELLA SERA
-        </h1>
+        <div class="flex flex-row" id="logo-and-title">
+          <img src="img/Hamburger_Menu_Icon.png" alt="icona menù ad hamburger" class="disappearing-element-large"
+          id="title-hamburger-menu-icon">
+          <h1 id="page-title">
+            CORRIERE DELLA SERA
+          </h1>
+        </div>
         <div class="flex flex-row">
           <div class="flex" id="date-time-update">
             <time class="disappearing-element-small" id="date-time" datetime="2025-4-21">
@@ -91,7 +95,7 @@
     <main class="flex">
       <div class="flex flex-column" id="main-container">
         <section class="flex top-border" id="temi-caldi">
-          <span class="flex" id="temi-caldi-caption">Temi caldi di oggi: </span>
+          <span class="flex disappearing-element-small" id="temi-caldi-caption">Temi caldi di oggi: </span>
           <nav class="flex" id="temi-caldi-list-container">
             <ul class="flex flex-row" id="temi-caldi-list">
               <li>TEMA 1</li>
@@ -100,8 +104,8 @@
               <li>TEMA 4</li>
               <li class="disappearing-element-small">TEMA 5</li>
               <li class="disappearing-element-small">TEMA 6</li>
-              <li class="disappearing-element-small">TEMA 7</li>
-              <li class="disappearing-element-small">TEMA 8</li>
+              <li class="disappearing-element-small disappearing-element-large">TEMA 7</li>
+              <li class="disappearing-element-small disappearing-element-large">TEMA 8</li>
             </ul>
           </nav>
         </section>
@@ -125,7 +129,7 @@
               </div>
             </article>
 
-            <article class="corriere-tv-box flex flex-row not-first">
+            <article class="corriere-tv-box disappearing-element-large flex flex-row not-first">
               <figure class="corriere-tv-box-picture figure-right-margin">
                 <img src="img/Cicero_Placeholder_Tv_Boxes.png" alt="placeholder" class="corriere-tv-box-img">
               </figure>
@@ -196,7 +200,7 @@
                     di Lorem Ipsum, Dolor Sit, Amet Consectetur
                   </p>
                 </div>
-                <p class="paragraph-after-attribution-colour">
+                <p class="paragraph-after-attribution-colour disappearing-element-small">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sit amet erat a tempus.
                 </p>
                 <nav>
@@ -227,7 +231,7 @@
           <div class="flex flex-row">
             <div class="flex flex-column left-container">
               <div class="flex top-border coupled-articles-container" id="coupled-articles-container">
-                <div class="flex flex-column right-border coupled-articles-left-article-container
+                <div class="flex flex-column coupled-articles-left-article-container
                 coupled-articles-article-container">
                   <span class="top-writing-styling">
                     LOREM IPSUM
@@ -286,9 +290,6 @@
                     Praesent venenatis velit lectus, vitae imperdiet nibh tempor vel. Sed rutrum mauris vel mi
                     ullamcorper dictum.
                   </h2>
-                  <figure class="margin-0-0-0-0">
-
-                  </figure>
                   <img src="img/Cicero_Placeholder_Secondary_Article.png" alt="placeholder"
                        id="secondary-article-image">
                 </article>
@@ -296,7 +297,7 @@
                   <p class="attribution-colour-and-font-style" id="secondary-article-attribution">
                     di Lorem Ipsum, Dolor Sit, Amet Consectetur
                   </p>
-                  <p class="paragraph-after-attribution-colour">
+                  <p class="paragraph-after-attribution-colour disappearing-element-small">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   </p>
                   <nav>
@@ -331,7 +332,7 @@
                       <p class="attribution-colour-and-font-style generic-article-attribution-margin">
                         di Lorem ipsum dolor sit amet
                       </p>
-                      <p>
+                      <p class="disappearing-element-small">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                       </p>
                       <ul class="generic-article-additional-info-list additional-info-list-margin-and-padding">
@@ -360,7 +361,7 @@
                       <p class="attribution-colour-and-font-style generic-article-attribution-margin">
                         di Lorem ipsum dolor sit amet
                       </p>
-                      <p>
+                      <p class="disappearing-element-small">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                       </p>
                       <ul class="generic-article-additional-info-list additional-info-list-margin-and-padding">
@@ -412,8 +413,7 @@
                 <p id="three-articles-top-top-writing">
                   LOREM IPSUM
                 </p>
-                <div id="three-articles-bar-after-top-top-writing">
-                </div>
+                <div id="three-articles-bar-after-top-top-writing"></div>
                 <div class="flex flex-row" id="three-articles-container">
                   <div class="three-articles-article-container">
                     <p class="top-writing-styling">
@@ -471,8 +471,8 @@
                 </div>
               </div>
 
-              <div class="flex flex-column box-shadow" id="four-articles-in-a-square">
-                <div class="flex flex-row" id="four-articles-in-a-square-upper-articles">
+              <div class="flex flex-column" id="four-articles-in-a-square">
+                <div class="flex" id="four-articles-in-a-square-upper-articles">
                   <div class="flex flex-column right-border coupled-articles-article-container
                   four-articles-left-article-container four-articles-article-container"
                   id="four-articles-in-a-square-upper-articles-left-article-container">
@@ -521,10 +521,9 @@
                   </div>
                 </div>
 
-                <div class="flex flex-row top-border" id="four-articles-in-a-square-lower-articles">
-                  <div id="four-articles-in-a-square-lower-articles-left-article-container"
-                  class="flex flex-column right-border coupled-articles-article-container
-                  four-articles-left-article-container">
+                <div class="flex top-border" id="four-articles-in-a-square-lower-articles">
+                  <div class="flex flex-column coupled-articles-article-container four-articles-left-article-container"
+                  id="four-articles-in-a-square-lower-articles-left-article-container">
                     <p class="top-writing-styling">
                       LOREM IPSUM
                     </p>
@@ -738,7 +737,7 @@
                 </div>
               </div>
 
-              <div class="flex flex-row top-border coupled-articles-container extra-news-coupled-articles-container">
+              <div class="flex top-border coupled-articles-container extra-news-coupled-articles-container">
                 <div class="flex flex-column right-border coupled-articles-left-article-container
                 coupled-articles-article-container">
                   <span class="top-writing-styling">
